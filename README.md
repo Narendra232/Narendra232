@@ -4,7 +4,7 @@
 
 
 
-### 👨‍💼 &nbsp;About Me :
+
 # 👨‍💻 DevOps Engineer | Infrastructure & Automation Specialist 🇮🇳
 
 🔭 **Current Sprint:** Architecting scalable CI/CD pipelines, managing cloud infrastructure, and optimizing full-stack application deployments.
