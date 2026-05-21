@@ -8,8 +8,11 @@
 # 👨‍💻 DevOps Engineer | Infrastructure & Automation Specialist 🇮🇳
 
 🔭 **Current Sprint:** Architecting scalable CI/CD pipelines, managing cloud infrastructure, and optimizing full-stack application deployments.
+
 🌱 **Continuous Learning:** Exploring Technical Content Writing to document infrastructure-as-code patterns.
+
 ⚡ **Idle Time CronJob:** Solving algorithmic challenges on GeeksforGeeks and analyzing tech architecture deep-dives.
+
 - 📫 How to reach me: &nbsp; [![Linkedin Badge](https://img.shields.io/badge/-narendra-blue?style=flat&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/narendra-kumar91/)
 <a href="https://www.linkedin.com/in/narendra-kumar91/"> <img src="https://komarev.com/ghpvc/?username=narendra-kumar91&label=Profile%20views&color=0e75b6&style=flat" alt="narendra-kumar91" />
 
