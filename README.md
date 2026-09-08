@@ -248,7 +248,7 @@ Sikkim Manipal University, Gangtok, Sikkim
 
 📧 **Email:** [kumar.mail017@gmail.com](mailto:kumar.mail017@gmail.com)
 
-📱 **Phone:** 8196881978
+📱 **Phone:** 7217271363
 
 💼 **LinkedIn:**
 [linkedin.com/in/Narendra-kumar91](https://www.linkedin.com/in/narendra-kumar91)/)
