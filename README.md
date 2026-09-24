@@ -2,7 +2,7 @@
 
 ### ☁️ Cloud & DevOps Engineer | Azure | Terraform | CI/CD | DevSecOps
 
-**11+ Years of IT Experience | 5+ Years in Azure & DevOps**
+**9+ Years of IT Experience | 5+ Years in Azure & DevOps**
 
 I am a **Cloud & DevOps Engineer** with 9+ years of IT experience, including 5+ years focused on **Microsoft Azure, DevOps, Infrastructure as Code, CI/CD, and DevSecOps**.
 
