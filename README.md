@@ -103,9 +103,9 @@ A complete Azure infrastructure automation project demonstrating **Infrastructur
 
 ## 💼 Professional Experience
 
-### Cloud & DevOps Engineer — Alohomora Solution
+### Cloud & DevOps Engineer — Kaar Technologies
 
-**Feb 2025 – Present**
+**Sep 2024 – Present**
 
 * Designed and provisioned Azure cloud infrastructure using Terraform following Infrastructure as Code best practices.
 * Developed reusable Terraform modules to standardize infrastructure provisioning across client environments.
@@ -113,9 +113,9 @@ A complete Azure infrastructure automation project demonstrating **Infrastructur
 * Built and maintained CI/CD pipelines using GitHub Actions.
 * Automated infrastructure deployment, application delivery, and release workflows.
 
-### Junior DevOps Engineer — Bebo Technologies Pvt. Ltd.
+### Junior DevOps Engineer — Birlasoft Pvt. Ltd.
 
-**Aug 2021 – Jul 2023**
+**Dec 2020 – Aug 2024**
 
 * Managed and provisioned Azure cloud infrastructure using Terraform.
 * Administered Azure Virtual Machines, Virtual Networks, Storage Accounts, and Resource Groups.
@@ -123,55 +123,23 @@ A complete Azure infrastructure automation project demonstrating **Infrastructur
 * Configured secure Azure networking using Load Balancer, VNet Peering, and NSG rules.
 * Collaborated with development and operations teams to improve infrastructure reliability and automation.
 
-### Cloud Engineer — eClerx Services Ltd.
+### Cloud Engineer — Tulip Technology
 
-**Feb 2019 – Aug 2021**
-
-**Cloud Engineer | Apr 2020 – Aug 2021**
-
+**Jul 2017 – May 2020**
 * Managed Microsoft Azure infrastructure and cloud resources.
 * Provisioned and configured Windows and Linux Virtual Machines.
 * Created and managed Resource Groups, Storage Accounts, Virtual Networks, and NSGs.
 * Configured Azure networking components including VNets, Subnets, Public IPs, and Load Balancers.
 
-**System Engineer | Feb 2019 – Mar 2020**
-
-* Managed Windows and Linux servers hosted on Microsoft Azure.
-* Installed, configured, and maintained Windows and Linux operating systems.
-* Supported day-to-day server administration and infrastructure operations.
-
-### QA Engineer — HDB Financial Services
-
-**May 2018 – Nov 2018**
-
-* Created and executed test cases for banking and financial applications.
-* Coordinated with development teams for defect tracking and resolution.
-* Supported application testing and release activities.
-
-### Manual Test Engineer — Sushil Jeetpuria & Co.
-
-**Sep 2016 – Jan 2018**
-
-* Performed manual testing for web applications.
-* Executed regression testing and defect reporting.
-* Supported application releases and quality validation.
-
-### Manual Tester — Wave Infotech
-
-**Dec 2013 – Aug 2016**
-
-* Executed manual test cases for web applications.
-* Performed regression testing.
-* Identified, documented, and reported application defects.
 
 ---
 
 ## 📊 DevOps Expertise
 
 | Area                 | Technologies                                      |
-| -------------------- | ------------------------------------------------- |
+| --------------------  | -------------------------------------------------|
 | ☁️ Cloud             | Microsoft Azure                                   |
-| 🏗️ IaC              | Terraform                                         |
+| 🏗️ IaC               | Terraform                                         |
 | 🔄 CI/CD             | GitHub Actions                                    |
 | 📦 Version Control   | Git, GitHub                                       |
 | 🔐 DevSecOps         | tfsec, TFLint, GitLeaks                           |
@@ -179,7 +147,7 @@ A complete Azure infrastructure automation project demonstrating **Infrastructur
 | 🔑 Security          | Azure Key Vault, Azure RBAC                       |
 | 🌐 Networking        | VNets, Subnets, NSGs, Load Balancer, VNet Peering |
 | 🐳 Containers        | Docker, Kubernetes                                |
-| 🖥️ OS               | Linux, Windows                                    |
+| 🖥️ OS                | Linux, Windows                                    |
 | 📜 Scripting         | Bash, PowerShell                                  |
 | 📊 Monitoring        | Azure Monitor                                     |
 
