@@ -91,7 +91,7 @@ flowchart TD
     %% 1. CLOUD PLATFORM & DEVSECOPS
     %% ===================================================
     subgraph TRACK_INFRA["☁️ 1. CLOUD PLATFORM & DEVSECOPS FOUNDATION"]
-        style TRACK_INFRA fill:none,stroke:#0ea5e9,stroke-width:2px,color:#0ea5e9
+        style TRACK_INFRA fill:none,stroke:#6c8ebf,stroke-width:2px,color:#0b2545
         
         DEV["💻 1. GitOps Ingestion<br/>(VS Code • PR Branch Gate)"]
         SEC["🛡️ 2. Shift-Left DevSecOps<br/>(GitLeaks • tfsec • Infracost)"]
@@ -104,7 +104,7 @@ flowchart TD
     %% 2. AGENTIC AI & LLMOPS ENGINE
     %% ===================================================
     subgraph TRACK_AI["🤖 2. AGENTIC AI & LLMOPS ENGINE"]
-        style TRACK_AI fill:none,stroke:#a855f7,stroke-width:2px,color:#a855f7
+        style TRACK_AI fill:none,stroke:#9673a6,stroke-width:2px,color:#2d0f38
         
         AGENT["🧠 4. LangGraph Supervisor<br/>(Multi-Agent Task Routing)"]
         MCP["🔌 5. Model Context Protocol<br/>(FastMCP Server • Azure & IaC Tools)"]
@@ -121,15 +121,15 @@ flowchart TD
     GUARD -.->|⚡ 8. Auto-Healing Remediation PR| DEV
 
     %% ===================================================
-    %% COLOR SCHEME
+    %% DRAW.IO OFFICIAL COLOR PALETTE
     %% ===================================================
-    classDef devNode fill:none,stroke:#38bdf8,stroke-width:2px,color:#38bdf8;
-    classDef secNode fill:none,stroke:#f43f5e,stroke-width:2px,color:#f43f5e;
-    classDef cloudNode fill:none,stroke:#0ea5e9,stroke-width:2px,color:#0ea5e9;
-    classDef agentNode fill:none,stroke:#a855f7,stroke-width:2px,color:#a855f7;
-    classDef mcpNode fill:none,stroke:#c084fc,stroke-width:2px,color:#c084fc;
-    classDef ragNode fill:none,stroke:#10b981,stroke-width:2px,color:#10b981;
-    classDef guardNode fill:none,stroke:#f59e0b,stroke-width:2px,color:#f59e0b;
+    classDef devNode fill:#dae8fc,stroke:#6c8ebf,stroke-width:1.5px,color:#0b2545;
+    classDef secNode fill:#f8cecc,stroke:#b85450,stroke-width:1.5px,color:#4a0f0d;
+    classDef cloudNode fill:#dae8fc,stroke:#6c8ebf,stroke-width:1.5px,color:#0b2545;
+    classDef agentNode fill:#e1d5e7,stroke:#9673a6,stroke-width:1.5px,color:#2d0f38;
+    classDef mcpNode fill:#e1d5e7,stroke:#9673a6,stroke-width:1.5px,color:#2d0f38;
+    classDef ragNode fill:#d5e8d4,stroke:#82b366,stroke-width:1.5px,color:#0f3815;
+    classDef guardNode fill:#fff2cc,stroke:#d6b656,stroke-width:1.5px,color:#382d0b;
 
     class DEV devNode;
     class SEC secNode;
