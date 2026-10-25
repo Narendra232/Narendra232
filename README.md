@@ -2,24 +2,30 @@
 
 # ⚡ Narendra Kumar
 ### **Senior Cloud DevSecOps & AI Infrastructure Architect**
-**9+ Years of Enterprise IT Experience | 5+ Years in Azure, Modular IaC & DevSecOps | AI Systems & LLMOps**
+**9+ Years Enterprise IT • 5+ Years Azure & Modular IaC • DevSecOps Specialist • AI Systems & LLMOps**
+
+<br/>
 
 [![Profile Views](https://komarev.com/ghpvc/?username=Narendra232&label=Profile%20Views&color=0ea5e9&style=for-the-badge)](https://github.com/Narendra232)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/narendra-kumar91/)
 [![Email](https://img.shields.io/badge/Email-kumar.mail017%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:kumar.mail017@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Narendra232)
 
----
+<br/>
 
 <a href="https://readme-typing-svg.demolab.com">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=38BDF8&center=true&vCenter=true&width=850&height=50&lines=Senior+DevSecOps+%26+Cloud+Platform+Architect;Enterprise+Azure+Landing+Zones+%7C+Modular+Terraform;Autonomous+AI+Agents+%7C+Model+Context+Protocol+(MCP);Enterprise+RAG+Pipelines+%7C+Vector+Databases+%7C+LLMOps;Zero-Trust+Pipelines+%7C+Trivy+%7C+GitLeaks+%7C+Infracost" alt="Typing Banner" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=38BDF8&center=true&vCenter=true&width=850&height=50&lines=Senior+DevSecOps+%26+Cloud+Platform+Architect;Enterprise+Azure+Landing+Zones+%7C+Modular+Terraform;Autonomous+AI+Agents+%7C+Model+Context+Protocol+(MCP);Enterprise+RAG+Pipelines+%7C+Vector+Databases+%7C+LLMOps;Shift-Left+Security+%7C+Zero-Trust+%7C+FinOps+Automation" alt="Typing Banner" />
 </a>
 
----
+<br/>
+
+<kbd>💼 9+ Years Enterprise IT</kbd> • <kbd>☁️ Microsoft Azure &amp; IaC</kbd> • <kbd>🛡️ Zero-Trust DevSecOps</kbd> • <kbd>🤖 Model Context Protocol (MCP) &amp; RAG</kbd>
 
 </div>
 
-## 🌟 Executive Overview
+---
+
+## 🌟 Executive Summary
 
 I am a **Lead Cloud DevSecOps & AI Infrastructure Architect** with **9+ years of overall IT excellence**, specializing in architecting resilient, compliant, multi-region enterprise platforms on **Microsoft Azure** using **Terraform (IaC)**, **Zero-Trust CI/CD pipelines**, and **cutting-edge AI/LLMOps infrastructure**.
 
@@ -32,18 +38,15 @@ In modern engineering, DevSecOps and AI are converging. I bridge the gap between
 
 ---
 
-## 🛠️ Technology Stack & Core Competencies
+## 🛠️ Technology Stack & Tools
 
 <div align="center">
 
-### ☁️ Cloud & Platform Engineering
-![Azure](https://img.shields.io/badge/Microsoft_Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
-![Terraform](https://img.shields.io/badge/Terraform_IaC-7B42BC?style=for-the-badge&logo=terraform&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes_(AKS)-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker_Containers-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![Bash](https://img.shields.io/badge/Bash_Scripting-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)
-![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=for-the-badge&logo=powershell&logoColor=white)
+<a href="https://skillicons.dev">
+  <img src="https://skillicons.dev/icons?i=azure,terraform,kubernetes,docker,linux,bash,powershell,python,githubactions,git,prometheus,grafana&theme=dark" alt="Core Tech Stack" />
+</a>
+
+<br/><br/>
 
 ### 🔐 DevSecOps, Governance & FinOps
 ![GitLeaks](https://img.shields.io/badge/GitLeaks_Secrets_Scan-E11D48?style=for-the-badge&logo=security&logoColor=white)
@@ -60,13 +63,7 @@ In modern engineering, DevSecOps and AI are converging. I bridge the gap between
 ![AI Agents](https://img.shields.io/badge/AI_Agents-CrewAI_%7C_LangGraph-059669?style=for-the-badge&logo=openai&logoColor=white)
 ![LangChain](https://img.shields.io/badge/LangChain_%2F_LlamaIndex-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
 ![Vector DBs](https://img.shields.io/badge/Vector_DB-Qdrant_%7C_Azure_AI_Search-0284C7?style=for-the-badge&logo=database&logoColor=white)
-![Python](https://img.shields.io/badge/Python_3.x-3776AB?style=for-the-badge&logo=python&logoColor=white)
-
-### 🔄 CI/CD & Observability
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
-![Git](https://img.shields.io/badge/Git_Version_Control-F05032?style=for-the-badge&logo=git&logoColor=white)
-![Azure Monitor](https://img.shields.io/badge/Azure_Monitor_%26_Log_Analytics-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
-![Prometheus & Grafana](https://img.shields.io/badge/Prometheus_%26_Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)
+![NeMo Guardrails](https://img.shields.io/badge/Guardrails-NeMo_Security-76B900?style=for-the-badge&logo=nvidia&logoColor=white)
 
 </div>
 
@@ -74,22 +71,85 @@ In modern engineering, DevSecOps and AI are converging. I bridge the gap between
 
 ## 🏛️ Autonomous DevSecOps & AI Systems Architecture
 
-<div align="center">
+```mermaid
+flowchart LR
+    subgraph GITOPS["🐙 1. GitOps Ingestion"]
+        DEV["💻 Code Commit & PR"] --> GATE["🛡️ Branch Protection"]
+    end
 
-<!-- Real-Time Status Pills -->
-[![DevSecOps Gate](https://img.shields.io/badge/Security_Gates-100%25_Shift--Left-00C853?style=for-the-badge&logo=githubactions&logoColor=white)](https://github.com/Narendra232)
-[![MCP Runtime](https://img.shields.io/badge/MCP_Runtime-Standardized_JSON--RPC-7C4DFF?style=for-the-badge&logo=anthropic&logoColor=white)](https://github.com/Narendra232)
-[![RAG Pipeline](https://img.shields.io/badge/RAG_Engine-Qdrant_%7C_Hybrid_Vector-FF6D00?style=for-the-badge&logo=databricks&logoColor=white)](https://github.com/Narendra232)
-[![IaC Foundation](https://img.shields.io/badge/IaC_Standard-Terraform_Enterprise-00B0FF?style=for-the-badge&logo=terraform&logoColor=white)](https://github.com/Narendra232)
-[![FinOps Audit](https://img.shields.io/badge/FinOps_Guardrail-Infracost_Enforced-00E676?style=for-the-badge&logo=infracost&logoColor=black)](https://github.com/Narendra232)
+    subgraph SEC["🔐 2. DevSecOps Gates"]
+        GATE --> SCAN["🔑 GitLeaks & tfsec<br/>(Secret & SAST Scan)"]
+        SCAN --> FINOPS["💰 Infracost<br/>(PR Budget Gate)"]
+    end
 
-</div>
+    subgraph CLOUD["☁️ 3. Azure Cloud Fabric"]
+        FINOPS --> TF["⚡ Modular Terraform<br/>(CAF Landing Zones)"]
+        TF --> AKS["☸️ Private AKS Cluster<br/>(Isolated Workloads)"]
+    end
+
+    subgraph AI["🤖 4. Autonomous AI Engine"]
+        AKS --> MCP["🔌 MCP Server Host<br/>(Azure & IaC Tools)"]
+        MCP --> AGENT["🧠 LangGraph Supervisor<br/>(Multi-Agent Swarm)"]
+        AGENT --> RAG["📚 Qdrant Vector RAG<br/>(CIS Benchmarks & SOPs)"]
+    end
+
+    subgraph HEAL["⚡ 5. Closed-Loop Healing"]
+        RAG --> AUTO_PR["🚀 Auto-Healing PR<br/>(Verified Code Patch)"]
+        AUTO_PR -.->|Continuous Reconciliation| DEV
+    end
+
+    classDef stage fill:none,stroke:#38bdf8,stroke-width:1.5px,color:#38bdf8;
+    classDef sec fill:none,stroke:#f43f5e,stroke-width:1.5px,color:#f43f5e;
+    classDef cld fill:none,stroke:#0ea5e9,stroke-width:1.5px,color:#0ea5e9;
+    classDef ai fill:none,stroke:#a855f7,stroke-width:1.5px,color:#a855f7;
+    classDef loop fill:none,stroke:#06b6d4,stroke-width:2px,color:#06b6d4;
+
+    class DEV,GATE stage;
+    class SCAN,FINOPS sec;
+    class TF,AKS cld;
+    class MCP,AGENT,RAG ai;
+    class AUTO_PR loop;
+```
+
+---
+
+### ⚡ Architectural Deep-Dive: The 4 Core Pillars
+
+> [!TIP]
+> ### 🛡️ Pillar 1: Shift-Left DevSecOps & Automated Governance
+> **Zero-trust security baked directly into the developer workflow before any infrastructure state merge.**
+> - **Continuous SAST & Secret Interception:** Automated `GitLeaks` and `tfsec` execution halts commits with exposed secrets or security violations.
+> - **Policy as Code:** `TFLint` and `Checkov` validate Terraform modules against CIS Azure Foundation Benchmarks.
+> - **FinOps Guardrails:** `Infracost` provides real-time pull request cost diffs, eliminating surprise cloud bills before deployment.
+> - **Key Result:** **Zero leaked credentials**, **99.9% automated PR pass-through rate**, **100% policy compliance**.
+
+> [!NOTE]
+> ### ☁️ Pillar 2: Enterprise Cloud Architecture & Modular IaC
+> **Resilient multi-region platforms engineered on Microsoft Azure following the Cloud Adoption Framework (CAF).**
+> - **Enterprise Landing Zones:** Scalable Hub-and-Spoke networking, VNet Peering, Azure Firewall, and Network Security Groups.
+> - **Reusable Terraform Modules:** Dynamic data sources, remote state with distributed locking, and parameterized blueprints.
+> - **Zero-Trust Identity:** Centralized secret management in `Azure Key Vault`, Managed Identities, and granular RBAC schemas.
+> - **Container Platform:** Private, hardened `Azure Kubernetes Service (AKS)` with network isolation and Workload Identity.
+
+> [!IMPORTANT]
+> ### 🔌 Pillar 3: Model Context Protocol (MCP) Fabric
+> **Standardized JSON-RPC protocol bridging cloud infrastructure tools directly with Agentic LLM reasoning.**
+> - **Custom FastMCP Server:** Hosts deterministic, sandboxed tools querying Azure Resource Graph, K8s diagnostics, and IaC linters.
+> - **Zero Hallucination:** Strongly typed schema contracts enforce safe, read-only interactions before any mutation.
+> - **Cross-Platform Interoperability:** Compatible across Claude 3.5 Sonnet, GPT-4o, and autonomous agent orchestrators.
+
+> [!CAUTION]
+> ### 🧠 Pillar 4: Enterprise RAG & Autonomous Self-Healing
+> **High-throughput vector search combined with closed-loop autonomous infrastructure remediation.**
+> - **Sub-50ms Vector Engine:** `Qdrant` and `Azure AI Search` indexing CIS benchmarks, company architecture SOPs, and CVE advisories.
+> - **LLMOps Guardrails:** `NeMo Guardrails` blocking prompt injections, scrubbing sensitive PII, and monitoring token latency.
+> - **Closed-Loop Reconciliation:** AI agents detect infrastructure drift and automatically generate verified pull requests with fix patches.
 
 <br/>
 
-### 🖥️ Live Telemetry: Autonomous AI Agent & DevSecOps Console
-
-> *Real-world simulation of Narendra's autonomous multi-agent platform detecting IaC drift, running security auditing via MCP, querying enterprise RAG benchmarks, and pushing verified remediation code.*
+<details>
+<summary><b>🖥️ Click to view Live Autonomous Agent & DevSecOps Console Telemetry</b></summary>
+<br/>
 
 ```bash
 narendra@azure-sentinel:~$ narendra-agent run --scope=azure-landing-zone --mcp-server=az-graph-mcp
@@ -110,57 +170,10 @@ narendra@azure-sentinel:~$ narendra-agent run --scope=azure-landing-zone --mcp-s
 [00:08.95] ✅ [PIPELINE PASS] Security Gate Passed • Perimeter Hardened • Zero Human Lag
 ```
 
-<br/>
-
-### ⚡ The 4 Autonomous Architectural Pillars
-
-<table width="100%">
-  <tr>
-    <td width="50%" valign="top">
-      <h4>🛡️ 1. Zero-Trust DevSecOps Gateways</h4>
-      <ul>
-        <li><b>Shift-Left Scanning:</b> Enforced pre-merge checks with <code>GitLeaks</code>, <code>tfsec</code>, and <code>Trivy</code>.</li>
-        <li><b>Policy as Code:</b> <code>TFLint</code> and <code>Checkov</code> ensuring 100% compliance with CIS Azure Benchmarks.</li>
-        <li><b>Automated FinOps:</b> <code>Infracost</code> calculating real-time dollar impact on every pull request.</li>
-        <li><b>Impact:</b> <b>Zero leaked credentials</b>, <b>99.9% automated PR pass-through rate</b>.</li>
-      </ul>
-    </td>
-    <td width="50%" valign="top">
-      <h4>☁️ 2. Enterprise Cloud &amp; IaC Architecture</h4>
-      <ul>
-        <li><b>Azure Landing Zones (CAF):</b> Multi-tier Hub-and-Spoke topology with Azure Firewall &amp; NSGs.</li>
-        <li><b>Modular Terraform:</b> Parameterized, reusable modules with dynamic state data sources.</li>
-        <li><b>Identity &amp; Access:</b> Zero-trust <code>Azure Key Vault</code>, Workload Identity &amp; managed credentials.</li>
-        <li><b>Compute Runtime:</b> Private, isolated <code>Azure Kubernetes Service (AKS)</code>.</li>
-      </ul>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h4>🔌 3. Model Context Protocol (MCP) Fabric</h4>
-      <ul>
-        <li><b>Standardized Protocol:</b> Custom MCP servers operating over JSON-RPC (stdio &amp; SSE).</li>
-        <li><b>Deterministic Tooling:</b> Exposes read-only Azure Resource Graph, K8s diagnostics, and IaC linters to LLMs.</li>
-        <li><b>Security Sandbox:</b> Prevents LLM hallucinations through strictly typed schema contracts.</li>
-        <li><b>Interoperability:</b> Works seamlessly across Claude, GPT-4o, and autonomous agent frameworks.</li>
-      </ul>
-    </td>
-    <td width="50%" valign="top">
-      <h4>🧠 4. Enterprise RAG &amp; LLMOps Engine</h4>
-      <ul>
-        <li><b>Sub-50ms Vector Search:</b> Hybrid dense/sparse indexing powered by <code>Qdrant</code> &amp; <code>Azure AI Search</code>.</li>
-        <li><b>Grounding Knowledge:</b> Indexed compliance benchmarks, company SOPs, and CVE advisories.</li>
-        <li><b>LLMOps Guardrails:</b> <code>NeMo Guardrails</code> blocking prompt injections &amp; scrubbing sensitive PII.</li>
-        <li><b>Self-Healing Loop:</b> Autonomous PR generation directly closing the loop on detected drift.</li>
-      </ul>
-    </td>
-  </tr>
-</table>
-
-<br/>
+</details>
 
 <details>
-<summary><b>🔍 Click to view production MCP Tool Server implementation (Python)</b></summary>
+<summary><b>🔍 Click to view Production FastMCP Tool Server Implementation (Python)</b></summary>
 <br/>
 
 ```python
@@ -191,30 +204,6 @@ def audit_nsg_security_rules(subscription_id: str) -> dict:
 
 if __name__ == "__main__":
     mcp.run()
-```
-
-</details>
-
-<details>
-<summary><b>🔍 Click to view interactive Mermaid pipeline flow</b></summary>
-<br/>
-
-```mermaid
-flowchart LR
-    A["💻 Git Commit"] --> B["🛡️ DevSecOps Gate"]
-    B --> C["☁️ Azure IaC (Terraform)"]
-    C --> D["🤖 MCP & RAG AI Agent"]
-    D -.->|⚡ Auto-PR| A
-    
-    classDef step fill:none,stroke:#38bdf8,stroke-width:2px,color:#38bdf8;
-    classDef sec fill:none,stroke:#f43f5e,stroke-width:2px,color:#f43f5e;
-    classDef cld fill:none,stroke:#0ea5e9,stroke-width:2px,color:#0ea5e9;
-    classDef ai fill:none,stroke:#a855f7,stroke-width:2px,color:#a855f7;
-    
-    class A step;
-    class B sec;
-    class C cld;
-    class D ai;
 ```
 
 </details>
@@ -266,22 +255,6 @@ flowchart LR
 - Managed and maintained enterprise Microsoft Azure environments hosting Windows and Linux computing clusters.
 - Configured network routing, load balancers, public/private IP schemas, subnets, and storage accounts.
 - Automated system administration and patch management routines using Bash and PowerShell scripting.
-
----
-
-## 📊 Deep-Dive Competency Matrix
-
-| Strategic Area | Enterprise Capabilities & Tech Stack |
-| :--- | :--- |
-| **Cloud Architecture** | Microsoft Azure, Hub-and-Spoke Networking, Azure Landing Zones, Storage, Compute, Key Vault |
-| **Infrastructure as Code** | Terraform (Modules, Workspaces, Remote State, Dynamic Data Sources), Terragrunt, ARM/Bicep |
-| **DevSecOps & SAST** | tfsec, TFLint, GitLeaks, Trivy, Checkov, SonarQube, OPA / Conftest, Shift-Left Enforcement |
-| **FinOps & Cost Control** | Infracost, Azure Cost Management, Resource Tagging Governance, Idle Resource Automation |
-| **AI Systems & LLMOps** | Model Context Protocol (MCP), Enterprise RAG, LangChain, LlamaIndex, Vector DBs, AI Agents |
-| **Containers & Orchestration**| Docker, Kubernetes (AKS), Container Registry (ACR), Helm Charts, Microservices Hardening |
-| **CI/CD & GitOps** | GitHub Actions, Reusable Workflows, Matrix Builds, Automated Rollbacks, Git Branching Strategies |
-| **Scripting & Automation** | Python, Bash, PowerShell, Azure CLI, REST API Integrations |
-| **Monitoring & SRE** | Azure Monitor, Log Analytics, Application Insights, Prometheus, Grafana, Incident Alerting |
 
 ---
 
