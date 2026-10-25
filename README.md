@@ -71,6 +71,20 @@ In modern engineering, DevSecOps and AI are converging. I bridge the gap between
 
 ## 🏛️ Autonomous DevSecOps & AI Systems Architecture
 
+<div align="center">
+
+<a href="./architecture.svg" title="🔍 Click diagram to open in full-screen zoom mode (+ / -)">
+  <img src="./architecture.svg" alt="Autonomous DevSecOps & AI Systems Architecture" width="70%" style="max-width: 650px; border-radius: 8px;" />
+</a>
+
+<p align="center">
+  <sub>🔍 <b>Click on the diagram above</b> to open high-resolution zoom view (+ / -)</sub>
+</p>
+
+<details>
+<summary><b>📐 Click to Expand &amp; Zoom In Directly on Page (Interactive Mermaid Flow)</b></summary>
+<br/>
+
 ```mermaid
 flowchart TD
     %% ===================================================
@@ -125,6 +139,10 @@ flowchart TD
     class RAG ragNode;
     class GUARD guardNode;
 ```
+
+</details>
+
+</div>
 
 ---
 
