@@ -74,6 +74,25 @@ In modern engineering, DevSecOps and AI are converging. I bridge the gap between
 
 ## 🏛️ End-to-End Enterprise Architecture
 
+<div align="center">
+
+[![Open in Draw.io](https://img.shields.io/badge/Draw.io-Open%20%26%20Edit%20Diagram-F08705?style=for-the-badge&logo=diagramsdotnet&logoColor=white)](https://app.diagrams.net/?url=https://raw.githubusercontent.com/Narendra232/Narendra232/main/architecture.drawio)
+[![Download Draw.io XML](https://img.shields.io/badge/Source-architecture.drawio-0078D4?style=for-the-badge&logo=xml&logoColor=white)](./architecture.drawio)
+
+<br/>
+
+<a href="./architecture.svg">
+  <img src="./architecture.svg" alt="Enterprise DevSecOps & AI Architecture by Narendra Kumar" width="100%" />
+</a>
+
+<sub><i>Click the diagram above or use the badge to open and edit the full model in <b>Draw.io (diagrams.net)</b>.</i></sub>
+
+</div>
+
+<details>
+<summary><b>🔍 Click to view interactive Mermaid text diagram representation</b></summary>
+<br/>
+
 ```mermaid
 flowchart TB
     %% ===================================================
@@ -179,6 +198,8 @@ flowchart TB
     class GUARD,LLM_ENGINE,TELEMETRY llmNode;
     class AUTO_PR loopNode;
 ```
+
+</details>
 
 ---
 

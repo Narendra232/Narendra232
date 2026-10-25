@@ -1,0 +1,168 @@
+<mxfile host="app.diagrams.net" modified="2026-10-25T21:15:00.000Z" agent="Antigravity/2.0" version="24.0.0" type="device">
+  <diagram name="DevSecOps-AI-Architecture" id="narendra-architecture">
+    <mxGraphModel dx="1600" dy="1000" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="950" background="#0d1117" math="0" shadow="1">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- Title Banner -->
+        <mxCell id="title_banner" value="ENTERPRISE DEVSECOPS &amp; AGENTIC AI / LLMOPS ARCHITECTURE&#xa;Engineered by Narendra Kumar | 9+ Years Cloud &amp; DevSecOps | Azure • Terraform • MCP • RAG" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#161b22;strokeColor=#38bdf8;strokeWidth=2;fontColor=#ffffff;fontSize=16;fontStyle=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="50" y="20" width="1300" height="60" as="geometry" />
+        </mxCell>
+
+        <!-- CONTAINER 1: DEV & GITOPS -->
+        <mxCell id="box_dev" value="1. DEVELOPER &amp; GITOPS FOUNDATION" style="swimlane;whiteSpace=wrap;html=1;fillColor=#0f172a;strokeColor=#38bdf8;strokeWidth=2;fontColor=#38bdf8;fontStyle=1;fontSize=13;startSize=30;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="110" width="580" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="node_code" value="💻 Developer Workstation&#xa;VS Code / Git Branching" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1e293b;strokeColor=#38bdf8;fontColor=#ffffff;fontSize=11;fontStyle=1;" vertex="1" parent="box_dev">
+          <mxGeometry x="30" y="55" width="220" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="node_github" value="🐙 GitHub Enterprise Monorepo&#xa;Pull Request &amp; Branch Protection" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1e293b;strokeColor=#38bdf8;fontColor=#ffffff;fontSize=11;fontStyle=1;" vertex="1" parent="box_dev">
+          <mxGeometry x="320" y="55" width="230" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_code_github" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#38bdf8;strokeWidth=2;fontColor=#ffffff;" edge="1" parent="box_dev" source="node_code" target="node_github">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- CONTAINER 2: DEVSECOPS GATEWAYS -->
+        <mxCell id="box_sec" value="2. SHIFT-LEFT DEVSECOPS &amp; GOVERNANCE GATEWAYS" style="swimlane;whiteSpace=wrap;html=1;fillColor=#1a0c16;strokeColor=#f43f5e;strokeWidth=2;fontColor=#f43f5e;fontStyle=1;fontSize=13;startSize=30;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="290" width="580" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="node_gitleaks" value="🔑 GitLeaks&#xa;Secret &amp; Token Audit" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#2d0f19;strokeColor=#f43f5e;fontColor=#ffffff;fontSize=11;fontStyle=1;" vertex="1" parent="box_sec">
+          <mxGeometry x="30" y="50" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="node_tflint" value="📐 TFLint &amp; Checkov&#xa;Policy-as-Code &amp; Best Practices" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#2d0f19;strokeColor=#f43f5e;fontColor=#ffffff;fontSize=11;fontStyle=1;" vertex="1" parent="box_sec">
+          <mxGeometry x="320" y="50" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="node_tfsec" value="🚨 tfsec &amp; Trivy&#xa;IaC SAST &amp; Vulnerabilities" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#2d0f19;strokeColor=#f43f5e;fontColor=#ffffff;fontSize=11;fontStyle=1;" vertex="1" parent="box_sec">
+          <mxGeometry x="30" y="140" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="node_infracost" value="💰 Infracost FinOps&#xa;PR Cloud Budget Guardrail" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#2d0f19;strokeColor=#f43f5e;fontColor=#ffffff;fontSize=11;fontStyle=1;" vertex="1" parent="box_sec">
+          <mxGeometry x="320" y="140" width="230" height="60" as="geometry" />
+        </mxCell>
+
+        <!-- CONTAINER 3: AZURE CLOUD FABRIC -->
+        <mxCell id="box_cloud" value="3. AZURE CLOUD PLATFORM FABRIC (TERRAFORM IaC)" style="swimlane;whiteSpace=wrap;html=1;fillColor=#081d34;strokeColor=#0284c7;strokeWidth=2;fontColor=#0284c7;fontStyle=1;fontSize=13;startSize=30;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="550" width="580" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="node_tf" value="⚡ Terraform Automation Engine&#xa;Modular Architecture &amp; State Management" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0c2a4a;strokeColor=#0284c7;fontColor=#ffffff;fontSize=11;fontStyle=1;" vertex="1" parent="box_cloud">
+          <mxGeometry x="30" y="50" width="520" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="node_lz" value="🏛️ Azure Landing Zone (CAF)&#xa;Hub-Spoke Topology &amp; NSG Firewalls" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0c2a4a;strokeColor=#0284c7;fontColor=#ffffff;fontSize=11;fontStyle=1;" vertex="1" parent="box_cloud">
+          <mxGeometry x="30" y="130" width="520" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="node_vault" value="🔐 Azure Key Vault &amp; Zero-Trust RBAC&#xa;Encrypted Secrets, Certificates &amp; Managed Identities" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0c2a4a;strokeColor=#0284c7;fontColor=#ffffff;fontSize=11;fontStyle=1;" vertex="1" parent="box_cloud">
+          <mxGeometry x="30" y="210" width="520" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="node_aks" value="☸️ Private Azure Kubernetes Service (AKS)&#xa;Isolated Workload Compute &amp; Container Security" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0c2a4a;strokeColor=#0284c7;fontColor=#ffffff;fontSize=11;fontStyle=1;" vertex="1" parent="box_cloud">
+          <mxGeometry x="30" y="285" width="520" height="55" as="geometry" />
+        </mxCell>
+
+        <!-- CONTAINER 4: AUTONOMOUS AI AGENTS -->
+        <mxCell id="box_ai" value="4. AUTONOMOUS AI AGENTS FLEET (LangGraph / CrewAI)" style="swimlane;whiteSpace=wrap;html=1;fillColor=#180b2c;strokeColor=#a855f7;strokeWidth=2;fontColor=#a855f7;fontStyle=1;fontSize=13;startSize=30;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="110" width="630" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="node_supervisor" value="🧠 Multi-Agent Supervisor Engine&#xa;Reasoning &amp; Task Delegation Router" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#2d1254;strokeColor=#a855f7;fontColor=#ffffff;fontSize=11;fontStyle=1;" vertex="1" parent="box_ai">
+          <mxGeometry x="30" y="50" width="570" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="node_sec_agent" value="🛡️ Security Audit Agent" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#2d1254;strokeColor=#a855f7;fontColor=#ffffff;fontSize=10;fontStyle=1;" vertex="1" parent="box_ai">
+          <mxGeometry x="30" y="115" width="170" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="node_drift_agent" value="🔍 IaC Drift Agent" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#2d1254;strokeColor=#a855f7;fontColor=#ffffff;fontSize=10;fontStyle=1;" vertex="1" parent="box_ai">
+          <mxGeometry x="230" y="115" width="170" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="node_heal_agent" value="⚡ Auto-Healing Agent" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#2d1254;strokeColor=#a855f7;fontColor=#ffffff;fontSize=10;fontStyle=1;" vertex="1" parent="box_ai">
+          <mxGeometry x="430" y="115" width="170" height="50" as="geometry" />
+        </mxCell>
+
+        <!-- CONTAINER 5: MODEL CONTEXT PROTOCOL (MCP) -->
+        <mxCell id="box_mcp" value="5. MODEL CONTEXT PROTOCOL (MCP) FABRIC" style="swimlane;whiteSpace=wrap;html=1;fillColor=#260c3b;strokeColor=#c084fc;strokeWidth=2;fontColor=#c084fc;fontStyle=1;fontSize=13;startSize=30;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="310" width="630" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="node_mcp_host" value="🔌 MCP Server &amp; Client Protocol Host&#xa;Secure JSON-RPC stdio/SSE Interface" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#3b145a;strokeColor=#c084fc;fontColor=#ffffff;fontSize=11;fontStyle=1;" vertex="1" parent="box_mcp">
+          <mxGeometry x="30" y="45" width="570" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="node_tool_az" value="☁️ Azure Graph Tool" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#3b145a;strokeColor=#c084fc;fontColor=#ffffff;fontSize=10;fontStyle=1;" vertex="1" parent="box_mcp">
+          <mxGeometry x="30" y="95" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="node_tool_iac" value="📐 Terraform Tool" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#3b145a;strokeColor=#c084fc;fontColor=#ffffff;fontSize=10;fontStyle=1;" vertex="1" parent="box_mcp">
+          <mxGeometry x="230" y="95" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="node_tool_k8s" value="☸️ AKS Diagnostic Tool" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#3b145a;strokeColor=#c084fc;fontColor=#ffffff;fontSize=10;fontStyle=1;" vertex="1" parent="box_mcp">
+          <mxGeometry x="430" y="95" width="170" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- CONTAINER 6: ENTERPRISE RAG -->
+        <mxCell id="box_rag" value="6. ENTERPRISE RAG &amp; VECTOR KNOWLEDGE FABRIC" style="swimlane;whiteSpace=wrap;html=1;fillColor=#042118;strokeColor=#10b981;strokeWidth=2;fontColor=#10b981;fontStyle=1;fontSize=13;startSize=30;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="480" width="630" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="node_rag_retriever" value="🔎 Hybrid Semantic Retriever (Dense &amp; Sparse)&#xa;LangChain / LlamaIndex Vector Query Engine" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0a3829;strokeColor=#10b981;fontColor=#ffffff;fontSize=11;fontStyle=1;" vertex="1" parent="box_rag">
+          <mxGeometry x="30" y="45" width="570" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="node_vector_db" value="🗄️ Vector DB: Qdrant &amp; Azure AI Search" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=10;fillColor=#0a3829;strokeColor=#10b981;fontColor=#ffffff;fontSize=10;fontStyle=1;" vertex="1" parent="box_rag">
+          <mxGeometry x="30" y="95" width="270" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="node_kb_docs" value="📖 CIS Benchmarks, CVEs &amp; Runbooks" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0a3829;strokeColor=#10b981;fontColor=#ffffff;fontSize=10;fontStyle=1;" vertex="1" parent="box_rag">
+          <mxGeometry x="330" y="95" width="270" height="45" as="geometry" />
+        </mxCell>
+
+        <!-- CONTAINER 7: LLMOPS & GUARDRAILS -->
+        <mxCell id="box_llm" value="7. LLMOPS GUARDRAILS &amp; PRIVATE INFERENCE" style="swimlane;whiteSpace=wrap;html=1;fillColor=#261502;strokeColor=#f59e0b;strokeWidth=2;fontColor=#f59e0b;fontStyle=1;fontSize=13;startSize=30;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="650" width="630" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="node_guard" value="🛡️ NeMo Guardrails: Prompt Injection Defense &amp; PII Scrubbing" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#3d1e04;strokeColor=#f59e0b;fontColor=#ffffff;fontSize=11;fontStyle=1;" vertex="1" parent="box_llm">
+          <mxGeometry x="30" y="45" width="570" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="node_llm_engine" value="🧠 Private LLM (vLLM / Ollama)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#3d1e04;strokeColor=#f59e0b;fontColor=#ffffff;fontSize=10;fontStyle=1;" vertex="1" parent="box_llm">
+          <mxGeometry x="30" y="95" width="270" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="node_telemetry" value="📊 Token Telemetry &amp; Cost Latency" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#3d1e04;strokeColor=#f59e0b;fontColor=#ffffff;fontSize=10;fontStyle=1;" vertex="1" parent="box_llm">
+          <mxGeometry x="330" y="95" width="270" height="45" as="geometry" />
+        </mxCell>
+
+        <!-- CONTAINER 8: CLOSED-LOOP AUTO-RECONCILIATION -->
+        <mxCell id="box_loop" value="8. CLOSED-LOOP RECONCILIATION: AUTO-HEALING PR GATE" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0a2034;strokeColor=#06b6d4;strokeWidth=2;fontColor=#06b6d4;fontStyle=1;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="720" y="820" width="630" height="80" as="geometry" />
+        </mxCell>
+
+        <!-- INTER-BLOCK CONNECTORS -->
+        <mxCell id="edge_dev_sec" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#f43f5e;strokeWidth=2;" edge="1" parent="1" source="box_dev" target="box_sec">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_sec_cloud" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#0284c7;strokeWidth=2;" edge="1" parent="1" source="box_sec" target="box_cloud">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_cloud_ai" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#a855f7;strokeWidth=2;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="box_cloud" target="box_ai">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="670" y="725" />
+              <mxPoint x="670" y="200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_ai_mcp" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#c084fc;strokeWidth=2;" edge="1" parent="1" source="box_ai" target="box_mcp">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_mcp_rag" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#10b981;strokeWidth=2;" edge="1" parent="1" source="box_mcp" target="box_rag">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_rag_llm" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#f59e0b;strokeWidth=2;" edge="1" parent="1" source="box_rag" target="box_llm">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_llm_loop" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#06b6d4;strokeWidth=2;" edge="1" parent="1" source="box_llm" target="box_loop">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_loop_github" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#06b6d4;strokeWidth=2;dashed=1;exitX=0;exitY=0.5;entryX=0.5;entryY=1;" edge="1" parent="1" source="box_loop" target="node_github">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="660" y="860" />
+              <mxPoint x="660" y="270" />
+              <mxPoint x="485" y="270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

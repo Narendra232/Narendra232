@@ -1,0 +1,332 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 940" width="100%" height="100%" style="background:#0b0f19; font-family:'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif;">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080c14" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+
+    <!-- Header Gradient -->
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1e293b" />
+      <stop offset="50%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#1e293b" />
+    </linearGradient>
+
+    <!-- Drop Shadows -->
+    <filter id="cardShadow" x="-10%" y="-10%" width="125%" height="125%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#000000" flood-opacity="0.5" />
+    </filter>
+
+    <filter id="glowBlue" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <!-- Arrow Markers -->
+    <marker id="arrowCyan" markerWidth="10" markerHeight="10" refX="7" refY="3.5" orient="auto">
+      <polygon points="0 0, 8 3.5, 0 7" fill="#38bdf8" />
+    </marker>
+    <marker id="arrowRose" markerWidth="10" markerHeight="10" refX="7" refY="3.5" orient="auto">
+      <polygon points="0 0, 8 3.5, 0 7" fill="#f43f5e" />
+    </marker>
+    <marker id="arrowBlue" markerWidth="10" markerHeight="10" refX="7" refY="3.5" orient="auto">
+      <polygon points="0 0, 8 3.5, 0 7" fill="#0ea5e9" />
+    </marker>
+    <marker id="arrowPurple" markerWidth="10" markerHeight="10" refX="7" refY="3.5" orient="auto">
+      <polygon points="0 0, 8 3.5, 0 7" fill="#a855f7" />
+    </marker>
+    <marker id="arrowGreen" markerWidth="10" markerHeight="10" refX="7" refY="3.5" orient="auto">
+      <polygon points="0 0, 8 3.5, 0 7" fill="#10b981" />
+    </marker>
+    <marker id="arrowAmber" markerWidth="10" markerHeight="10" refX="7" refY="3.5" orient="auto">
+      <polygon points="0 0, 8 3.5, 0 7" fill="#f59e0b" />
+    </marker>
+  </defs>
+
+  <!-- Deep Canvas Background -->
+  <rect width="1280" height="940" fill="url(#bgGrad)" />
+
+  <!-- Subtle Blueprint Grid -->
+  <g opacity="0.04" stroke="#38bdf8" stroke-width="1">
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" />
+    </pattern>
+    <rect width="1280" height="940" fill="url(#grid)" />
+  </g>
+
+  <!-- Outer Frame -->
+  <rect x="20" y="15" width="1240" height="910" rx="16" fill="none" stroke="#1e293b" stroke-width="2" />
+
+  <!-- =================================================== -->
+  <!-- TOP HEADER BANNER -->
+  <!-- =================================================== -->
+  <g transform="translate(40, 30)">
+    <rect width="1200" height="70" rx="12" fill="url(#headerGrad)" stroke="#38bdf8" stroke-width="1.5" filter="url(#cardShadow)" />
+    
+    <text x="30" y="32" fill="#38bdf8" font-size="19" font-weight="800" letter-spacing="1">
+      🏛️ ENTERPRISE DEVSECOPS &amp; AGENTIC AI PLATFORM ARCHITECTURE
+    </text>
+    <text x="30" y="54" fill="#94a3b8" font-size="12" font-weight="500">
+      Zero-Trust Infrastructure as Code • Modular Azure Landing Zones • Model Context Protocol (MCP) • Hybrid RAG • Closed-Loop Remediation
+    </text>
+
+    <!-- Badge -->
+    <rect x="910" y="16" width="260" height="38" rx="8" fill="#1e293b" stroke="#38bdf8" stroke-width="1" />
+    <text x="1040" y="33" fill="#38bdf8" font-size="11" font-weight="700" text-anchor="middle">ARCHITECT: NARENDRA KUMAR</text>
+    <text x="1040" y="47" fill="#cbd5e1" font-size="10" font-weight="500" text-anchor="middle">9+ Years IT • Azure • DevSecOps • AI</text>
+  </g>
+
+  <!-- =================================================== -->
+  <!-- LEFT COLUMN: DEV, DEVSECOPS & CLOUD INFRA -->
+  <!-- =================================================== -->
+
+  <!-- BOX 1: DEVELOPER WORKFLOW -->
+  <g transform="translate(40, 120)">
+    <rect width="560" height="135" rx="12" fill="#0f172a" stroke="#38bdf8" stroke-width="1.5" filter="url(#cardShadow)" />
+    <rect width="560" height="32" rx="12" fill="#1e293b" />
+    <text x="20" y="21" fill="#38bdf8" font-size="13" font-weight="700">1. DEVELOPER &amp; GITOPS FOUNDATION</text>
+
+    <!-- Card 1.1 -->
+    <g transform="translate(20, 48)">
+      <rect width="235" height="70" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1" />
+      <text x="15" y="28" fill="#f8fafc" font-size="13" font-weight="700">💻 Developer Station</text>
+      <text x="15" y="46" fill="#94a3b8" font-size="11">VS Code • Pre-commit Hooks</text>
+      <text x="15" y="60" fill="#64748b" font-size="10">Branching &amp; Local Verification</text>
+    </g>
+
+    <!-- Arrow -->
+    <line x1="265" y1="83" x2="295" y2="83" stroke="#38bdf8" stroke-width="2" marker-end="url(#arrowCyan)" />
+
+    <!-- Card 1.2 -->
+    <g id="github_box" transform="translate(305, 48)">
+      <rect width="235" height="70" rx="8" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5" />
+      <text x="15" y="28" fill="#38bdf8" font-size="13" font-weight="700">🐙 GitHub Monorepo</text>
+      <text x="15" y="46" fill="#f8fafc" font-size="11">Enterprise PR Gates</text>
+      <text x="15" y="60" fill="#94a3b8" font-size="10">Branch Protection &amp; CI Trigger</text>
+    </g>
+  </g>
+
+  <!-- Connect 1 -> 2 -->
+  <line x1="320" y1="255" x2="320" y2="280" stroke="#f43f5e" stroke-width="2" marker-end="url(#arrowRose)" />
+
+  <!-- BOX 2: SHIFT-LEFT DEVSECOPS GATEWAYS -->
+  <g transform="translate(40, 280)">
+    <rect width="560" height="195" rx="12" fill="#1a0c16" stroke="#f43f5e" stroke-width="1.5" filter="url(#cardShadow)" />
+    <rect width="560" height="32" rx="12" fill="#2d0f19" />
+    <text x="20" y="21" fill="#f43f5e" font-size="13" font-weight="700">2. SHIFT-LEFT DEVSECOPS &amp; GOVERNANCE GATEWAYS</text>
+
+    <!-- Card 2.1: GitLeaks -->
+    <g transform="translate(20, 45)">
+      <rect width="245" height="60" rx="8" fill="#2d0f19" stroke="#f43f5e" stroke-width="1" />
+      <text x="15" y="26" fill="#fecdd3" font-size="12" font-weight="700">🔑 GitLeaks Secrets Scan</text>
+      <text x="15" y="45" fill="#fda4af" font-size="10">Token &amp; Credential Pre-merge Audit</text>
+    </g>
+
+    <!-- Card 2.2: TFLint & Checkov -->
+    <g transform="translate(295, 45)">
+      <rect width="245" height="60" rx="8" fill="#2d0f19" stroke="#f43f5e" stroke-width="1" />
+      <text x="15" y="26" fill="#fecdd3" font-size="12" font-weight="700">📐 TFLint &amp; Checkov</text>
+      <text x="15" y="45" fill="#fda4af" font-size="10">Policy-as-Code &amp; Best Practices</text>
+    </g>
+
+    <!-- Card 2.3: tfsec & Trivy -->
+    <g transform="translate(20, 118)">
+      <rect width="245" height="60" rx="8" fill="#2d0f19" stroke="#f43f5e" stroke-width="1" />
+      <text x="15" y="26" fill="#fecdd3" font-size="12" font-weight="700">🚨 tfsec &amp; Trivy SAST</text>
+      <text x="15" y="45" fill="#fda4af" font-size="10">IaC Vulnerability &amp; CVE Scanning</text>
+    </g>
+
+    <!-- Card 2.4: Infracost -->
+    <g transform="translate(295, 118)">
+      <rect width="245" height="60" rx="8" fill="#2d0f19" stroke="#f43f5e" stroke-width="1" />
+      <text x="15" y="26" fill="#fecdd3" font-size="12" font-weight="700">💰 Infracost FinOps</text>
+      <text x="15" y="45" fill="#fda4af" font-size="10">Automated Pull Request Budget Gate</text>
+    </g>
+  </g>
+
+  <!-- Connect 2 -> 3 -->
+  <line x1="320" y1="475" x2="320" y2="500" stroke="#0ea5e9" stroke-width="2" marker-end="url(#arrowBlue)" />
+
+  <!-- BOX 3: AZURE CLOUD FABRIC (TERRAFORM) -->
+  <g transform="translate(40, 500)">
+    <rect width="560" height="390" rx="12" fill="#081d34" stroke="#0ea5e9" stroke-width="1.5" filter="url(#cardShadow)" />
+    <rect width="560" height="32" rx="12" fill="#0c2a4a" />
+    <text x="20" y="21" fill="#38bdf8" font-size="13" font-weight="700">3. AZURE CLOUD PLATFORM FABRIC (TERRAFORM IaC)</text>
+
+    <!-- Card 3.1: Terraform -->
+    <g transform="translate(20, 48)">
+      <rect width="520" height="65" rx="8" fill="#0c2a4a" stroke="#0ea5e9" stroke-width="1" />
+      <text x="20" y="28" fill="#e0f2fe" font-size="13" font-weight="700">⚡ Terraform Automation Engine</text>
+      <text x="20" y="48" fill="#7dd3fc" font-size="11">Modular Blueprints • Dynamic Data Sources • Remote State with Locking</text>
+    </g>
+
+    <!-- Card 3.2: Landing Zone -->
+    <g transform="translate(20, 128)">
+      <rect width="520" height="65" rx="8" fill="#0c2a4a" stroke="#0ea5e9" stroke-width="1" />
+      <text x="20" y="28" fill="#e0f2fe" font-size="13" font-weight="700">🏛️ Enterprise Azure Landing Zone (CAF)</text>
+      <text x="20" y="48" fill="#7dd3fc" font-size="11">Hub-and-Spoke Topology • VNet Peering • NSGs &amp; Azure Firewall Isolation</text>
+    </g>
+
+    <!-- Card 3.3: Key Vault -->
+    <g transform="translate(20, 208)">
+      <rect width="520" height="65" rx="8" fill="#0c2a4a" stroke="#0ea5e9" stroke-width="1" />
+      <text x="20" y="28" fill="#e0f2fe" font-size="13" font-weight="700">🔐 Azure Key Vault &amp; Zero-Trust RBAC</text>
+      <text x="20" y="48" fill="#7dd3fc" font-size="11">Hardware Security Modules (HSM) • Secret Rotation • Managed Identities</text>
+    </g>
+
+    <!-- Card 3.4: AKS -->
+    <g id="aks_node" transform="translate(20, 288)">
+      <rect width="520" height="75" rx="8" fill="#0c2a4a" stroke="#38bdf8" stroke-width="2" />
+      <text x="20" y="30" fill="#38bdf8" font-size="14" font-weight="800">☸️ Private Azure Kubernetes Service (AKS)</text>
+      <text x="20" y="50" fill="#f8fafc" font-size="11">Enterprise Container Compute • Private Endpoints • Network Policy Segregation</text>
+      <text x="20" y="66" fill="#94a3b8" font-size="10">Hosts MCP Host Agents, RAG Retrievers, and LLM Inference Gateway</text>
+    </g>
+  </g>
+
+  <!-- =================================================== -->
+  <!-- RIGHT COLUMN: AUTONOMOUS AI & LLMOPS ENGINE -->
+  <!-- =================================================== -->
+
+  <!-- BOX 4: AUTONOMOUS AI AGENT FLEET -->
+  <g transform="translate(640, 120)">
+    <rect width="600" height="175" rx="12" fill="#180b2c" stroke="#a855f7" stroke-width="1.5" filter="url(#cardShadow)" />
+    <rect width="600" height="32" rx="12" fill="#2d1254" />
+    <text x="20" y="21" fill="#c084fc" font-size="13" font-weight="700">4. AUTONOMOUS AI AGENT FLEET (LangGraph / CrewAI)</text>
+
+    <!-- Supervisor -->
+    <g transform="translate(20, 45)">
+      <rect width="560" height="50" rx="8" fill="#2d1254" stroke="#a855f7" stroke-width="1" />
+      <text x="20" y="25" fill="#fae8ff" font-size="13" font-weight="700">🧠 Multi-Agent Supervisor Engine</text>
+      <text x="20" y="41" fill="#d8b4fe" font-size="11">Task Decomposition • Tool Routing • Deterministic Verification Guardrails</text>
+    </g>
+
+    <!-- Sub-agents -->
+    <g transform="translate(20, 108)">
+      <rect width="175" height="52" rx="6" fill="#2d1254" stroke="#c084fc" stroke-width="1" />
+      <text x="12" y="24" fill="#fae8ff" font-size="11" font-weight="700">🛡️ Security Agent</text>
+      <text x="12" y="40" fill="#d8b4fe" font-size="9">CVE &amp; Audit Synthesis</text>
+    </g>
+    <g transform="translate(212, 108)">
+      <rect width="175" height="52" rx="6" fill="#2d1254" stroke="#c084fc" stroke-width="1" />
+      <text x="12" y="24" fill="#fae8ff" font-size="11" font-weight="700">🔍 IaC Drift Agent</text>
+      <text x="12" y="40" fill="#d8b4fe" font-size="9">Resource Graph Audits</text>
+    </g>
+    <g transform="translate(405, 108)">
+      <rect width="175" height="52" rx="6" fill="#2d1254" stroke="#c084fc" stroke-width="1" />
+      <text x="12" y="24" fill="#fae8ff" font-size="11" font-weight="700">⚡ Auto-Healing</text>
+      <text x="12" y="40" fill="#d8b4fe" font-size="9">Generates Fix PRs</text>
+    </g>
+  </g>
+
+  <!-- Connect 4 -> 5 -->
+  <line x1="940" y1="295" x2="940" y2="315" stroke="#c084fc" stroke-width="2" marker-end="url(#arrowPurple)" />
+
+  <!-- BOX 5: MODEL CONTEXT PROTOCOL (MCP) FABRIC -->
+  <g transform="translate(640, 315)">
+    <rect width="600" height="150" rx="12" fill="#260c3b" stroke="#c084fc" stroke-width="1.5" filter="url(#cardShadow)" />
+    <rect width="600" height="32" rx="12" fill="#3b145a" />
+    <text x="20" y="21" fill="#e879f9" font-size="13" font-weight="700">5. MODEL CONTEXT PROTOCOL (MCP) FABRIC</text>
+
+    <!-- MCP Server Runtime -->
+    <g transform="translate(20, 45)">
+      <rect width="560" height="42" rx="8" fill="#3b145a" stroke="#c084fc" stroke-width="1" />
+      <text x="20" y="26" fill="#fdf4ff" font-size="12" font-weight="700">🔌 MCP Server &amp; Client Protocol Host</text>
+      <text x="270" y="26" fill="#e879f9" font-size="11">Standardized JSON-RPC Tool Invocation (stdio &amp; SSE)</text>
+    </g>
+
+    <!-- MCP Tools -->
+    <g transform="translate(20, 95)">
+      <rect width="175" height="42" rx="6" fill="#3b145a" stroke="#e879f9" stroke-width="1" />
+      <text x="15" y="25" fill="#fdf4ff" font-size="11" font-weight="700">☁️ Azure Graph Tool</text>
+    </g>
+    <g transform="translate(212, 95)">
+      <rect width="175" height="42" rx="6" fill="#3b145a" stroke="#e879f9" stroke-width="1" />
+      <text x="15" y="25" fill="#fdf4ff" font-size="11" font-weight="700">📐 Terraform Tool</text>
+    </g>
+    <g transform="translate(405, 95)">
+      <rect width="175" height="42" rx="6" fill="#3b145a" stroke="#e879f9" stroke-width="1" />
+      <text x="15" y="25" fill="#fdf4ff" font-size="11" font-weight="700">☸️ AKS Diagnostic Tool</text>
+    </g>
+  </g>
+
+  <!-- Connect 5 -> 6 -->
+  <line x1="940" y1="465" x2="940" y2="485" stroke="#10b981" stroke-width="2" marker-end="url(#arrowGreen)" />
+
+  <!-- BOX 6: ENTERPRISE RAG & VECTOR KNOWLEDGE -->
+  <g transform="translate(640, 485)">
+    <rect width="600" height="155" rx="12" fill="#042118" stroke="#10b981" stroke-width="1.5" filter="url(#cardShadow)" />
+    <rect width="600" height="32" rx="12" fill="#0a3829" />
+    <text x="20" y="21" fill="#34d399" font-size="13" font-weight="700">6. ENTERPRISE RAG &amp; VECTOR KNOWLEDGE FABRIC</text>
+
+    <!-- Retriever -->
+    <g transform="translate(20, 45)">
+      <rect width="560" height="42" rx="8" fill="#0a3829" stroke="#10b981" stroke-width="1" />
+      <text x="20" y="26" fill="#ecfdf5" font-size="12" font-weight="700">🔎 Hybrid Semantic Dense &amp; Sparse Retriever</text>
+      <text x="330" y="26" fill="#6ee7b7" font-size="11">LangChain / LlamaIndex Vector Query</text>
+    </g>
+
+    <!-- Vector DB & Docs -->
+    <g transform="translate(20, 95)">
+      <rect width="270" height="46" rx="6" fill="#0a3829" stroke="#34d399" stroke-width="1" />
+      <text x="15" y="24" fill="#ecfdf5" font-size="11" font-weight="700">🗄️ Vector DB: Qdrant &amp; Azure AI Search</text>
+      <text x="15" y="38" fill="#a7f3d0" font-size="9">Cosine Similarity &amp; Sub-50ms Embeddings</text>
+    </g>
+    <g transform="translate(310, 95)">
+      <rect width="270" height="46" rx="6" fill="#0a3829" stroke="#34d399" stroke-width="1" />
+      <text x="15" y="24" fill="#ecfdf5" font-size="11" font-weight="700">📖 CIS Benchmarks &amp; CVE Index</text>
+      <text x="15" y="38" fill="#a7f3d0" font-size="9">Company Runbooks &amp; Architecture Rules</text>
+    </g>
+  </g>
+
+  <!-- Connect 6 -> 7 -->
+  <line x1="940" y1="640" x2="940" y2="660" stroke="#f59e0b" stroke-width="2" marker-end="url(#arrowAmber)" />
+
+  <!-- BOX 7: LLMOPS GUARDRAILS & INFERENCE -->
+  <g transform="translate(640, 660)">
+    <rect width="600" height="135" rx="12" fill="#261502" stroke="#f59e0b" stroke-width="1.5" filter="url(#cardShadow)" />
+    <rect width="600" height="32" rx="12" fill="#3d1e04" />
+    <text x="20" y="21" fill="#fbbf24" font-size="13" font-weight="700">7. LLMOPS GUARDRAILS &amp; PRIVATE INFERENCE</text>
+
+    <!-- Guardrails -->
+    <g transform="translate(20, 45)">
+      <rect width="270" height="72" rx="6" fill="#3d1e04" stroke="#f59e0b" stroke-width="1" />
+      <text x="15" y="26" fill="#fef3c7" font-size="11" font-weight="700">🛡️ NeMo Security Guardrails</text>
+      <text x="15" y="44" fill="#fde68a" font-size="10">Prompt Injection Defense</text>
+      <text x="15" y="58" fill="#f59e0b" font-size="9">PII Redaction &amp; Output Sanitization</text>
+    </g>
+
+    <!-- LLM Engine & Metrics -->
+    <g transform="translate(310, 45)">
+      <rect width="270" height="72" rx="6" fill="#3d1e04" stroke="#f59e0b" stroke-width="1" />
+      <text x="15" y="26" fill="#fef3c7" font-size="11" font-weight="700">🧠 Private LLM &amp; Telemetry</text>
+      <text x="15" y="44" fill="#fde68a" font-size="10">vLLM / Ollama Private Inference</text>
+      <text x="15" y="58" fill="#f59e0b" font-size="9">Token Latency &amp; Prometheus Metrics</text>
+    </g>
+  </g>
+
+  <!-- Connect 7 -> 8 -->
+  <line x1="940" y1="795" x2="940" y2="815" stroke="#06b6d4" stroke-width="2" marker-end="url(#arrowCyan)" />
+
+  <!-- BOX 8: CLOSED-LOOP AUTO-RECONCILIATION -->
+  <g transform="translate(640, 815)">
+    <rect width="600" height="75" rx="12" fill="#0a2034" stroke="#06b6d4" stroke-width="2" filter="url(#cardShadow)" />
+    <text x="25" y="32" fill="#22d3ee" font-size="14" font-weight="800">⚡ 8. CLOSED-LOOP AUTO-RECONCILIATION GATE</text>
+    <text x="25" y="54" fill="#e0f2fe" font-size="12">Autonomous Verified Pull Requests: Security Remediation, Terraform Drift Fix &amp; Patch Deployment</text>
+  </g>
+
+  <!-- =================================================== -->
+  <!-- CROSS-SYSTEM CONNECTORS & RECONCILIATION LOOP -->
+  <!-- =================================================== -->
+
+  <!-- AKS to AI Supervisor Link -->
+  <path d="M 580 830 Q 615 830, 615 480 T 640 200" fill="none" stroke="#a855f7" stroke-width="2.5" stroke-dasharray="6,4" marker-end="url(#arrowPurple)" />
+  <rect x="585" y="470" width="60" height="20" rx="4" fill="#180b2c" stroke="#a855f7" stroke-width="1" />
+  <text x="615" y="484" fill="#c084fc" font-size="9" font-weight="700" text-anchor="middle">API &amp; MCP</text>
+
+  <!-- Feedback Loop from Box 8 directly back to GitHub Monorepo (Box 1.2) -->
+  <path d="M 640 855 Q 615 855, 615 670 T 615 220 Q 615 180, 560 180" fill="none" stroke="#06b6d4" stroke-width="2.5" stroke-dasharray="8,5" marker-end="url(#arrowCyan)" />
+  <rect x="575" y="165" width="80" height="22" rx="4" fill="#082032" stroke="#06b6d4" stroke-width="1" />
+  <text x="615" y="180" fill="#22d3ee" font-size="9" font-weight="800" text-anchor="middle">⚡ AUTO-PR</text>
+
+</svg>
