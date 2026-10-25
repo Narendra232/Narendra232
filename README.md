@@ -1,227 +1,230 @@
-# 👋 Hi, I'm Narendra Kumar
+<div align="center">
 
-### ☁️ Cloud & DevOps Engineer | Azure | Terraform | CI/CD | DevSecOps
+# ⚡ Narendra Kumar
+### **Senior Cloud DevSecOps & AI Infrastructure Architect**
+**9+ Years of Enterprise IT Experience | 5+ Years in Azure, Modular IaC & DevSecOps | AI Systems & LLMOps**
 
-**9+ Years of IT Experience | 5+ Years in Azure & DevOps**
-
-I am a **Cloud & DevOps Engineer** with 9+ years of IT experience, including 5+ years focused on **Microsoft Azure, DevOps, Infrastructure as Code, CI/CD, and DevSecOps**.
-
-I specialize in designing and automating cloud infrastructure using **Terraform**, building **CI/CD pipelines with GitHub Actions**, and implementing security and cost optimization practices throughout the infrastructure lifecycle.
-
-I am passionate about building **secure, scalable, highly available, and automated cloud environments** using modern DevOps practices.
-
----
-
-## 🛠️ Technical Skills
-
-### ☁️ Cloud & Infrastructure
-
-* Microsoft Azure
-* Azure Landing Zones
-* Azure Resource Groups
-* Azure Virtual Networks & Subnets
-* Network Security Groups (NSGs)
-* Azure Load Balancer
-* Azure Storage Accounts
-* Azure Virtual Machines
-* Azure Key Vault
-* Azure Monitor
-* Azure RBAC
-* Azure CLI
-
-### 🏗️ Infrastructure as Code
-
-* Terraform
-* Terraform Data Sources
-* Terraform Modules
-* Reusable & Generic Modules
-* Modular Infrastructure Architecture
-* Infrastructure Automation
-
-### 🔄 Version Control & CI/CD
-
-* Git
-* GitHub
-* GitHub Actions
-* CI/CD Pipeline Automation
-* Deployment Automation
-
-### 🔐 DevSecOps & Security
-
-* tfsec
-* TFLint
-* GitLeaks
-* Infracost
-* Azure Key Vault
-* Azure RBAC
-* NSG Security Rules
-* Secure Azure Networking
-* Security Scanning in CI/CD
-
-### 🐳 Containers
-
-* Docker
-* Kubernetes — Basic Concepts
-
-### 💻 Operating Systems & Scripting
-
-* Linux
-* Windows
-* Bash
-* PowerShell
+[![Profile Views](https://komarev.com/ghpvc/?username=Narendra232&label=Profile%20Views&color=0ea5e9&style=for-the-badge)](https://github.com/Narendra232)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/narendra-kumar91/)
+[![Email](https://img.shields.io/badge/Email-kumar.mail017%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:kumar.mail017@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Narendra232)
 
 ---
 
-## 🚀 Featured Project
-
-### 🏗️ Terraform Azure Landing Zone with DevSecOps
-
-A complete Azure infrastructure automation project demonstrating **Infrastructure as Code, modular Terraform architecture, CI/CD, DevSecOps security scanning, and cost analysis**.
-
-**Technologies Used:**
-
-`Azure` `Terraform` `Git` `GitHub` `GitHub Actions` `tfsec` `TFLint` `GitLeaks` `Infracost` `Azure Key Vault`
-
-### 🔹 Key Highlights
-
-* Designed and provisioned Azure infrastructure using **Terraform**
-* Implemented reusable and modular Terraform architecture
-* Used Terraform **Data Sources** to integrate existing Azure resources
-* Automated infrastructure deployment using **GitHub Actions**
-* Integrated **tfsec** for Terraform security scanning
-* Used **TFLint** for Terraform code quality and best-practice validation
-* Implemented **GitLeaks** for secret detection
-* Integrated **Infracost** for infrastructure cost estimation
-* Implemented Azure **RBAC** and **Key Vault** for secure access
-* Designed secure Azure networking using **VNets, Subnets and NSGs**
-* Managed source code and infrastructure configuration using **Git & GitHub**
-
-📂 **Explore the Project:**
-[Azure Landing Zone Repository](#)
+<a href="https://readme-typing-svg.demolab.com">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=38BDF8&center=true&vCenter=true&width=850&height=50&lines=Senior+DevSecOps+%26+Cloud+Platform+Architect;Enterprise+Azure+Landing+Zones+%7C+Modular+Terraform;Autonomous+AI+Agents+%7C+Model+Context+Protocol+(MCP);Enterprise+RAG+Pipelines+%7C+Vector+Databases+%7C+LLMOps;Zero-Trust+Pipelines+%7C+Trivy+%7C+GitLeaks+%7C+Infracost" alt="Typing Banner" />
+</a>
 
 ---
 
-## 💼 Professional Experience
+</div>
 
-### Cloud & DevOps Engineer — Kaar Technologies
+## 🌟 Executive Overview
 
-**Sep 2024 – Present**
+I am a **Lead Cloud DevSecOps & AI Infrastructure Architect** with **9+ years of overall IT excellence**, specializing in architecting resilient, compliant, multi-region enterprise platforms on **Microsoft Azure** using **Terraform (IaC)**, **Zero-Trust CI/CD pipelines**, and **cutting-edge AI/LLMOps infrastructure**.
 
-* Designed and provisioned Azure cloud infrastructure using Terraform following Infrastructure as Code best practices.
-* Developed reusable Terraform modules to standardize infrastructure provisioning across client environments.
-* Utilized Terraform Data Sources to reference existing Azure resources such as Resource Groups, VNets, Subnets, and Key Vaults.
-* Built and maintained CI/CD pipelines using GitHub Actions.
-* Automated infrastructure deployment, application delivery, and release workflows.
+In modern engineering, DevSecOps and AI are converging. I bridge the gap between **enterprise-grade infrastructure security** and **next-generation Generative AI systems**:
+- 🛡️ **DevSecOps Masterclass:** Shift-left security automation, continuous SAST/DAST, policy-as-code, automated secret auditing, and FinOps cost observability.
+- ☁️ **Scalable Cloud Foundations:** Production Azure Landing Zones (CAF), Hub-and-Spoke topologies, Private Endpoints, zero-trust RBAC, and automated Terraform modules.
+- 🤖 **AI Infrastructure & LLMOps:** Production-ready **RAG (Retrieval-Augmented Generation)**, **MCP (Model Context Protocol)** servers & clients, multi-agent frameworks (**LangGraph, CrewAI**), and secured vector search databases.
 
-### Junior DevOps Engineer — Birlasoft Pvt. Ltd.
-
-**Dec 2020 – Aug 2024**
-
-* Managed and provisioned Azure cloud infrastructure using Terraform.
-* Administered Azure Virtual Machines, Virtual Networks, Storage Accounts, and Resource Groups.
-* Implemented reusable Terraform modules for consistent infrastructure deployments.
-* Configured secure Azure networking using Load Balancer, VNet Peering, and NSG rules.
-* Collaborated with development and operations teams to improve infrastructure reliability and automation.
-
-### Cloud Engineer — Tulip Technology
-
-**Jul 2017 – May 2020**
-* Managed Microsoft Azure infrastructure and cloud resources.
-* Provisioned and configured Windows and Linux Virtual Machines.
-* Created and managed Resource Groups, Storage Accounts, Virtual Networks, and NSGs.
-* Configured Azure networking components including VNets, Subnets, Public IPs, and Load Balancers.
-
+> *"Building unbreakable cloud perimeters, automating high-throughput pipelines, and powering intelligence through robust AI infrastructure."*
 
 ---
 
-## 📊 DevOps Expertise
+## 🛠️ Technology Stack & Core Competencies
 
-| Area                 | Technologies                                      |
-| --------------------  | -------------------------------------------------|
-| ☁️ Cloud             | Microsoft Azure                                   |
-| 🏗️ IaC               | Terraform                                         |
-| 🔄 CI/CD             | GitHub Actions                                    |
-| 📦 Version Control   | Git, GitHub                                       |
-| 🔐 DevSecOps         | tfsec, TFLint, GitLeaks                           |
-| 💰 Cost Optimization | Infracost                                         |
-| 🔑 Security          | Azure Key Vault, Azure RBAC                       |
-| 🌐 Networking        | VNets, Subnets, NSGs, Load Balancer, VNet Peering |
-| 🐳 Containers        | Docker, Kubernetes                                |
-| 🖥️ OS                | Linux, Windows                                    |
-| 📜 Scripting         | Bash, PowerShell                                  |
-| 📊 Monitoring        | Azure Monitor                                     |
+<div align="center">
+
+### ☁️ Cloud & Platform Engineering
+![Azure](https://img.shields.io/badge/Microsoft_Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
+![Terraform](https://img.shields.io/badge/Terraform_IaC-7B42BC?style=for-the-badge&logo=terraform&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes_(AKS)-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker_Containers-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Bash](https://img.shields.io/badge/Bash_Scripting-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)
+![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=for-the-badge&logo=powershell&logoColor=white)
+
+### 🔐 DevSecOps, Governance & FinOps
+![GitLeaks](https://img.shields.io/badge/GitLeaks_Secrets_Scan-E11D48?style=for-the-badge&logo=security&logoColor=white)
+![tfsec](https://img.shields.io/badge/tfsec_IaC_Security-0284C7?style=for-the-badge&logo=terraform&logoColor=white)
+![Trivy](https://img.shields.io/badge/Trivy_Vulnerability_Scan-0052CC?style=for-the-badge&logo=aqua&logoColor=white)
+![TFLint](https://img.shields.io/badge/TFLint_Quality_Gates-3B82F6?style=for-the-badge&logo=terraform&logoColor=white)
+![Infracost](https://img.shields.io/badge/Infracost_FinOps-00D3A9?style=for-the-badge&logo=infracost&logoColor=black)
+![SonarQube](https://img.shields.io/badge/SonarQube_SAST-4E9BCD?style=for-the-badge&logo=sonarqube&logoColor=white)
+![Azure Key Vault](https://img.shields.io/badge/Azure_Key_Vault-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
+
+### 🤖 Generative AI, Agents & LLMOps
+![MCP](https://img.shields.io/badge/MCP-Model_Context_Protocol-6B21A8?style=for-the-badge&logo=anthropic&logoColor=white)
+![RAG](https://img.shields.io/badge/RAG-Vector_Pipelines-EA580C?style=for-the-badge&logo=databricks&logoColor=white)
+![AI Agents](https://img.shields.io/badge/AI_Agents-CrewAI_%7C_LangGraph-059669?style=for-the-badge&logo=openai&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangChain_%2F_LlamaIndex-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
+![Vector DBs](https://img.shields.io/badge/Vector_DB-Qdrant_%7C_Azure_AI_Search-0284C7?style=for-the-badge&logo=database&logoColor=white)
+![Python](https://img.shields.io/badge/Python_3.x-3776AB?style=for-the-badge&logo=python&logoColor=white)
+
+### 🔄 CI/CD & Observability
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
+![Git](https://img.shields.io/badge/Git_Version_Control-F05032?style=for-the-badge&logo=git&logoColor=white)
+![Azure Monitor](https://img.shields.io/badge/Azure_Monitor_%26_Log_Analytics-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
+![Prometheus & Grafana](https://img.shields.io/badge/Prometheus_%26_Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)
+
+</div>
 
 ---
 
-## 🔄 My DevOps Approach
+## 🏛️ End-to-End Enterprise Architecture
 
-```text
-        Git / GitHub
-             │
-             ▼
-      GitHub Actions
-             │
-     ┌───────┴────────┐
-     ▼                ▼
- Terraform          Security
-     │             Scanning
-     │          ┌────┴─────┐
-     │          ▼          ▼
-     │       tfsec      GitLeaks
-     │       TFLint
-     │
-     ▼
- Azure Infrastructure
-     │
-     ├── Resource Groups
-     ├── Virtual Networks
-     ├── Subnets
-     ├── NSGs
-     ├── Load Balancer
-     ├── Storage
-     ├── Key Vault
-     └── Virtual Machines
-             │
-             ▼
-       Cost Analysis
-          Infracost
+```mermaid
+flowchart TD
+    subgraph DEV_WORKFLOW["👨‍💻 Developer & Platform Engineering"]
+        CODE["Code Commit / PR"] --> GITHUB["GitHub Enterprise / Monorepo"]
+    end
+
+    subgraph DEVSECOPS_PIPELINE["🛡️ Shift-Left DevSecOps Gateways (GitHub Actions)"]
+        GITHUB --> SCAN_SECRETS["🔑 GitLeaks (Secret Detection)"]
+        SCAN_SECRETS --> LINT_IAC["📐 TFLint & Checkov (IaC Standards)"]
+        LINT_IAC --> SCAN_VULN["🚨 tfsec & Trivy (SAST & Vulnerability)"]
+        SCAN_VULN --> FINOPS["💰 Infracost (Cloud Budget Gate)"]
+    end
+
+    subgraph CLOUD_FABRIC["☁️ Azure Cloud Infrastructure (Terraform)"]
+        FINOPS -->|Approved Gate| TF_APPLY["Automated Terraform Deployment"]
+        TF_APPLY --> LZ["Azure Enterprise Landing Zone (CAF)"]
+        LZ --> NET["Hub-and-Spoke VNets & NSGs"]
+        LZ --> SEC["Azure Key Vault & Managed Identities"]
+        LZ --> K8S["Private Azure Kubernetes Service (AKS)"]
+    end
+
+    subgraph AI_LLMOPS["🤖 Agentic AI & LLMOps Engine"]
+        K8S --> MCP_SRV["🔌 Model Context Protocol (MCP) Server"]
+        MCP_SRV --> AGENT["🧠 Autonomous DevSecOps Remediation Agent"]
+        AGENT --> RAG["📚 RAG Pipeline (Vector Search & Knowledge Base)"]
+        RAG --> AUTO_FIX["⚡ Auto-Healing PRs & Drift Remediation"]
+        AUTO_FIX -.->|Feedback Loop| GITHUB
+    end
+
+    classDef dev fill:#1e293b,stroke:#38bdf8,stroke-width:2px,color:#fff;
+    classDef sec fill:#450a0a,stroke:#f87171,stroke-width:2px,color:#fff;
+    classDef cloud fill:#082f49,stroke:#0ea5e9,stroke-width:2px,color:#fff;
+    classDef ai fill:#2e1065,stroke:#c084fc,stroke-width:2px,color:#fff;
+
+    class DEV_WORKFLOW dev;
+    class DEVSECOPS_PIPELINE sec;
+    class CLOUD_FABRIC cloud;
+    class AI_LLMOPS ai;
 ```
 
 ---
 
-## 📚 Currently Focusing On
+## 💎 Featured Flagship Projects
 
-* Advanced Azure Cloud Architecture
-* Terraform & Infrastructure as Code
-* CI/CD Automation
-* DevSecOps Practices
-* Secure Azure Networking
-* Cloud Infrastructure Security
-* Infrastructure Cost Optimization
-* GitHub Actions Automation
+### 1. 🛡️ [Enterprise Azure Landing Zone with DevSecOps & FinOps](https://github.com/Narendra232)
+> **Production-grade cloud foundation engineered with modular Terraform, zero-trust network segregation, and automated continuous compliance.**
+- **Architecture:** Complete Hub-and-Spoke topology with Virtual Networks, Subnet delegations, Azure Firewall, Network Security Groups (NSGs), and Private Endpoints.
+- **Security Hardening:** Enforced `tfsec` security rules, `TFLint` code quality checks, and automated `GitLeaks` secret revocation before any state merge.
+- **FinOps Intelligence:** Embedded `Infracost` pipeline comments delivering granular pull request cost diffs to prevent cloud budget overruns.
+- **Tech Stack:** `Azure` • `Terraform` • `GitHub Actions` • `tfsec` • `TFLint` • `GitLeaks` • `Infracost` • `Key Vault`
+
+### 2. 🤖 [Autonomous DevSecOps AI Agent with MCP (Model Context Protocol)](https://github.com/Narendra232)
+> **Cutting-edge autonomous remediation system leveraging Anthropic's Model Context Protocol (MCP) and multi-agent tool calling.**
+- **MCP Integration:** Created custom MCP servers providing LLM agents with deterministic, read-only tools to safely query Azure Resource Graph, scan Terraform files, and audit NSGs.
+- **Agentic Workflow:** Employs LangGraph/CrewAI agents to autonomously detect cloud drift, analyze CVE severity, synthesize remediation code, and open verified PRs.
+- **Tech Stack:** `MCP (Model Context Protocol)` • `Python` • `LangGraph` • `Azure SDK` • `Terraform CLI` • `Docker`
+
+### 3. 🧠 [Enterprise Hybrid RAG Pipeline & Secure LLMOps on AKS](https://github.com/Narendra232)
+> **High-throughput, enterprise-ready Retrieval-Augmented Generation infrastructure with zero-trust network isolation.**
+- **Vector Retrieval:** Integrated Azure AI Search & Qdrant with hybrid dense/sparse vector search, semantic re-ranking, and dynamic chunking.
+- **Platform Security:** Hosted on private Azure Kubernetes Service (AKS) with Azure Key Vault secrets provider, Workload Identity, and automated Trivy container scanning.
+- **Observability:** Full tracing of token latency, LLM hallucination metrics, and vector index health via Azure Monitor and Prometheus/Grafana.
+- **Tech Stack:** `Azure AKS` • `Qdrant / Azure AI Search` • `LangChain` • `Python` • `Trivy` • `Azure Monitor`
+
+---
+
+## 💼 Professional Experience & Track Record
+
+### 🚀 **Lead Cloud & DevOps Engineer** — *Kaar Technologies*
+**Sep 2024 – Present | Chennai / Remote, India**
+- Architecting enterprise-scale multi-region Azure cloud environments using modular **Terraform (IaC)** adhering to Microsoft Cloud Adoption Framework (CAF).
+- Pioneering modern **DevSecOps automation**: shifting security left with integrated SAST, secret auditing, and automated container vulnerability mitigation in **GitHub Actions**.
+- Introducing AI-augmented workflow automation, utilizing **MCP and RAG** models to accelerate cloud configuration audits and incident resolution playbooks.
+- Mentoring cross-functional engineering teams in zero-trust architecture, IaC modularity, and FinOps practices.
+
+### ⚙️ **Senior / Junior DevOps Engineer** — *Birlasoft Pvt. Ltd.*
+**Dec 2020 – Aug 2024 | Noida, India**
+- Engineered high-availability cloud infrastructure across Virtual Networks, Azure Load Balancers, VNet Peering, and Managed Storage.
+- Standardized infrastructure delivery through reusable, parameterized Terraform modules, slashing deployment turnaround by **45%**.
+- Spearheaded CI/CD pipelines, automating testing, packaging, and zero-downtime release deployments across mission-critical enterprise workloads.
+- Hardened perimeter defense using Network Security Groups, Azure RBAC, and centralized secret management in Azure Key Vault.
+
+### 🌐 **Cloud Infrastructure Engineer** — *Tulip Technology*
+**Jul 2017 – May 2020 | India**
+- Managed and maintained enterprise Microsoft Azure environments hosting Windows and Linux computing clusters.
+- Configured network routing, load balancers, public/private IP schemas, subnets, and storage accounts.
+- Automated system administration and patch management routines using Bash and PowerShell scripting.
 
 ---
 
-## 🎓 Education
+## 📊 Deep-Dive Competency Matrix
 
-**Master of Computer Applications (MCA)**
-Rajiv Gandhi Proudyogiki Vishwavidyalaya (RGPV), Bhopal 
+| Strategic Area | Enterprise Capabilities & Tech Stack |
+| :--- | :--- |
+| **Cloud Architecture** | Microsoft Azure, Hub-and-Spoke Networking, Azure Landing Zones, Storage, Compute, Key Vault |
+| **Infrastructure as Code** | Terraform (Modules, Workspaces, Remote State, Dynamic Data Sources), Terragrunt, ARM/Bicep |
+| **DevSecOps & SAST** | tfsec, TFLint, GitLeaks, Trivy, Checkov, SonarQube, OPA / Conftest, Shift-Left Enforcement |
+| **FinOps & Cost Control** | Infracost, Azure Cost Management, Resource Tagging Governance, Idle Resource Automation |
+| **AI Systems & LLMOps** | Model Context Protocol (MCP), Enterprise RAG, LangChain, LlamaIndex, Vector DBs, AI Agents |
+| **Containers & Orchestration**| Docker, Kubernetes (AKS), Container Registry (ACR), Helm Charts, Microservices Hardening |
+| **CI/CD & GitOps** | GitHub Actions, Reusable Workflows, Matrix Builds, Automated Rollbacks, Git Branching Strategies |
+| **Scripting & Automation** | Python, Bash, PowerShell, Azure CLI, REST API Integrations |
+| **Monitoring & SRE** | Azure Monitor, Log Analytics, Application Insights, Prometheus, Grafana, Incident Alerting |
 
-**Bachelor of Computer Applications (BCA)**
-Sikkim Manipal University, Gangtok, Sikkim
+---
+
+## 📈 GitHub Live Activity & Metrics
+
+<div align="center">
+
+<table border="0">
+  <tr>
+    <td>
+      <img src="https://github-readme-stats.vercel.app/api?username=Narendra232&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=38BDF8&text_color=C9D1D9&icon_color=38BDF8" alt="Narendra's GitHub Stats" />
+    </td>
+    <td>
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Narendra232&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=38BDF8&text_color=C9D1D9" alt="Top Languages" />
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center">
+      <img src="https://github-readme-streak-stats.herokuapp.com/?user=Narendra232&theme=tokyonight&hide_border=true&background=0D1117&stroke=38BDF8&ring=38BDF8&fire=F43F5E&currStreakNum=38BDF8&sideNums=38BDF8&currStreakLabel=38BDF8&sideLabels=C9D1D9&dates=8B949E" alt="GitHub Streak" />
+    </td>
+  </tr>
+</table>
+
+</div>
 
 ---
 
-## 📫 Connect With Me
+## 🎓 Education & Credentials
 
-📧 **Email:** [kumar.mail017@gmail.com](mailto:kumar.mail017@gmail.com)
-
-📱 **Phone:** 7217271363
-
-💼 **LinkedIn:**
-[linkedin.com/in/Narendra-kumar91](https://www.linkedin.com/in/narendra-kumar91)/)
-
-🐙 **GitHub:**
-[(https://github.com/Narendra232)](#)
+- 🎓 **Master of Computer Applications (MCA)** — *Rajiv Gandhi Proudyogiki Vishwavidyalaya (RGPV), Bhopal*
+- 🎓 **Bachelor of Computer Applications (BCA)** — *Sikkim Manipal University (SMU), Gangtok*
+- 📜 **Continuous Specializations:** Microsoft Certified: Azure Solutions Architect Expert • HashiCorp Terraform Associate • Enterprise LLMOps & Agentic Workflows
 
 ---
+
+## 🤝 Let's Collaborate & Build the Future
+
+I am open to high-impact opportunities, principal/architect consulting, advisory engagements, and innovative leadership roles at the intersection of **Cloud Platform Engineering, DevSecOps, and Enterprise AI Systems**.
+
+<div align="center">
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect%20on%20LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/narendra-kumar91/)
+[![Email](https://img.shields.io/badge/Email-kumar.mail017%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:kumar.mail017@gmail.com)
+[![Direct Call](https://img.shields.io/badge/Direct%20Phone-%2B91--7217271363-34D399?style=for-the-badge&logo=whatsapp&logoColor=white)](tel:+917217271363)
+[![GitHub](https://img.shields.io/badge/GitHub-Narendra232-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Narendra232)
+
+<br/>
+
+<sub>Designed with precision & engineered for the universe by <b>Narendra Kumar</b> • Powered by DevSecOps & AI</sub>
+
+</div>
