@@ -74,124 +74,104 @@ In modern engineering, DevSecOps and AI are converging. I bridge the gap between
 
 ## 🏛️ End-to-End Enterprise Architecture
 
-<div align="center">
-
-[![Open in Draw.io](https://img.shields.io/badge/Draw.io-Open%20%26%20Edit%20Diagram-F08705?style=for-the-badge&logo=diagramsdotnet&logoColor=white)](https://app.diagrams.net/?url=https://raw.githubusercontent.com/Narendra232/Narendra232/main/architecture.drawio)
-[![Download Draw.io XML](https://img.shields.io/badge/Source-architecture.drawio-0078D4?style=for-the-badge&logo=xml&logoColor=white)](./architecture.drawio)
-
-<br/>
-
-<a href="./architecture.svg">
-  <img src="./architecture.svg" alt="Enterprise DevSecOps & AI Architecture by Narendra Kumar" width="100%" />
-</a>
-
-<sub><i>Click the diagram above or use the badge to open and edit the full model in <b>Draw.io (diagrams.net)</b>.</i></sub>
-
-</div>
-
-<details>
-<summary><b>🔍 Click to view interactive Mermaid text diagram representation</b></summary>
-<br/>
-
 ```mermaid
-flowchart TB
+flowchart TD
     %% ===================================================
     %% 1. DEVELOPER WORKFLOW
     %% ===================================================
     subgraph DEV_BOX["👨‍💻 1. DEVELOPER & GITOPS FOUNDATION"]
-        style DEV_BOX fill:#0f172a,stroke:#38bdf8,stroke-width:2px,color:#38bdf8
-        CODE["💻 Code Commit / PR"] --> GITHUB["🐙 GitHub Enterprise Monorepo"]
+        style DEV_BOX fill:none,stroke:#38bdf8,stroke-width:2px,stroke-dasharray:4 4,color:#38bdf8
+        CODE["💻 Developer Workstation<br/>(VS Code • Branching)"] --> GITHUB["🐙 GitHub Enterprise Monorepo<br/>(PR Verification & Branch Protection)"]
     end
 
     %% ===================================================
     %% 2. SHIFT-LEFT DEVSECOPS GATEWAYS
     %% ===================================================
-    subgraph SEC_BOX["🛡️ 2. SHIFT-LEFT DEVSECOPS GATEWAYS"]
-        style SEC_BOX fill:#1a0c16,stroke:#f43f5e,stroke-width:2px,color:#f43f5e
-        GITHUB --> SCAN_SECRETS["🔑 GitLeaks<br/>(Secret Detection)"]
-        SCAN_SECRETS --> LINT_IAC["📐 TFLint & Checkov<br/>(Policy as Code)"]
-        LINT_IAC --> SCAN_VULN["🚨 tfsec & Trivy<br/>(Vulnerability Scan)"]
-        SCAN_VULN --> FINOPS["💰 Infracost<br/>(FinOps Cost Gate)"]
+    subgraph SEC_BOX["🛡️ 2. SHIFT-LEFT DEVSECOPS & GOVERNANCE GATEWAYS"]
+        style SEC_BOX fill:none,stroke:#f43f5e,stroke-width:2px,stroke-dasharray:4 4,color:#f43f5e
+        GITHUB --> SCAN_SECRETS["🔑 GitLeaks<br/>(Secret & Credential Audit)"]
+        SCAN_SECRETS --> LINT_IAC["📐 TFLint & Checkov<br/>(Policy as Code & Linting)"]
+        LINT_IAC --> SCAN_VULN["🚨 tfsec & Trivy<br/>(IaC SAST & CVE Scanning)"]
+        SCAN_VULN --> FINOPS["💰 Infracost<br/>(Pull Request FinOps Gate)"]
     end
 
     %% ===================================================
     %% 3. CLOUD PLATFORM INFRASTRUCTURE
     %% ===================================================
-    subgraph CLOUD_BOX["☁️ 3. AZURE CLOUD FABRIC (TERRAFORM IaC)"]
-        style CLOUD_BOX fill:#081d34,stroke:#0284c7,stroke-width:2px,color:#0284c7
-        FINOPS -->|Verified Gate| TF_ENGINE["⚡ Terraform Engine<br/>(Automated Deployment)"]
-        TF_ENGINE --> LZ["🏛️ Azure Landing Zone (CAF)"]
-        LZ --> NET["🌐 Hub-Spoke VNets & NSGs"]
-        LZ --> VAULT["🔐 Azure Key Vault & IAM"]
-        LZ --> AKS["🐳 Private AKS Cluster<br/>(Enterprise Kubernetes)"]
+    subgraph CLOUD_BOX["☁️ 3. AZURE CLOUD PLATFORM FABRIC (TERRAFORM IaC)"]
+        style CLOUD_BOX fill:none,stroke:#0ea5e9,stroke-width:2px,stroke-dasharray:4 4,color:#0ea5e9
+        FINOPS -->|Approved Gate| TF_ENGINE["⚡ Terraform Engine<br/>(Modular IaC & State Locking)"]
+        TF_ENGINE --> LZ["🏛️ Azure Landing Zone (CAF)<br/>(Hub-Spoke VNets & NSG Firewalls)"]
+        LZ --> VAULT["🔐 Azure Key Vault<br/>(Zero-Trust RBAC & Managed Identities)"]
+        LZ --> AKS["☸️ Private Azure Kubernetes Service (AKS)<br/>(Isolated Workload Compute)"]
     end
 
     %% ===================================================
     %% 4. AUTONOMOUS AI AGENTS FLEET
     %% ===================================================
-    subgraph AI_AGENTS_BOX["🤖 4. AUTONOMOUS AI AGENT FLEET"]
-        style AI_AGENTS_BOX fill:#180b2c,stroke:#a855f7,stroke-width:2px,color:#a855f7
-        AKS --> AGENT_SUPERVISOR["🧠 Agent Supervisor<br/>(LangGraph & CrewAI)"]
+    subgraph AI_AGENTS_BOX["🤖 4. AUTONOMOUS AI AGENT FLEET (LangGraph / CrewAI)"]
+        style AI_AGENTS_BOX fill:none,stroke:#a855f7,stroke-width:2px,stroke-dasharray:4 4,color:#a855f7
+        AKS --> AGENT_SUPERVISOR["🧠 Multi-Agent Supervisor Engine<br/>(Task Planning & Tool Routing)"]
         AGENT_SUPERVISOR --> AGENT_SEC["🛡️ Security Audit Agent"]
         AGENT_SUPERVISOR --> AGENT_DRIFT["🔍 IaC Drift Agent"]
-        AGENT_SUPERVISOR --> AGENT_HEAL["⚡ Auto-Healing Agent"]
+        AGENT_SUPERVISOR --> AGENT_HEAL["⚡ Auto-Healing Remediation Agent"]
     end
 
     %% ===================================================
     %% 5. MODEL CONTEXT PROTOCOL (MCP) FABRIC
     %% ===================================================
     subgraph AI_MCP_BOX["🔌 5. MODEL CONTEXT PROTOCOL (MCP) FABRIC"]
-        style AI_MCP_BOX fill:#260c3b,stroke:#c084fc,stroke-width:2px,color:#c084fc
-        AGENT_SUPERVISOR <--> MCP_CORE["⚙️ MCP Tool Host & Client Engine"]
+        style AI_MCP_BOX fill:none,stroke:#c084fc,stroke-width:2px,stroke-dasharray:4 4,color:#c084fc
+        AGENT_SUPERVISOR <--> MCP_CORE["⚙️ MCP Server & Client Protocol Host<br/>(Standard JSON-RPC stdio/SSE)"]
         MCP_CORE <--> MCP_TOOL_AZ["☁️ Azure Resource Graph Tool"]
         MCP_CORE <--> MCP_TOOL_IAC["📐 Terraform Scanner Tool"]
-        MCP_CORE <--> MCP_TOOL_K8S["☸️ K8s Cluster Diagnostic Tool"]
+        MCP_CORE <--> MCP_TOOL_K8S["☸️ AKS Diagnostic Tool"]
     end
 
     %% ===================================================
     %% 6. ENTERPRISE RAG & VECTOR KNOWLEDGE
     %% ===================================================
-    subgraph AI_RAG_BOX["📚 6. ENTERPRISE RAG & VECTOR KNOWLEDGE"]
-        style AI_RAG_BOX fill:#042118,stroke:#10b981,stroke-width:2px,color:#10b981
-        AGENT_SUPERVISOR <--> RAG_RETRIEVER["🔎 Hybrid Semantic Retriever<br/>(Dense & Sparse Embeddings)"]
+    subgraph AI_RAG_BOX["📚 6. ENTERPRISE RAG & VECTOR KNOWLEDGE FABRIC"]
+        style AI_RAG_BOX fill:none,stroke:#10b981,stroke-width:2px,stroke-dasharray:4 4,color:#10b981
+        AGENT_SUPERVISOR <--> RAG_RETRIEVER["🔎 Hybrid Semantic Dense & Sparse Retriever<br/>(LangChain & LlamaIndex)"]
         RAG_RETRIEVER <--> VECTOR_DB[("🗄️ Vector Database<br/>(Qdrant & Azure AI Search)")]
-        RAG_RETRIEVER <--> KB_DOCS["📖 Enterprise CVEs, Runbooks<br/>& CIS Benchmarks"]
+        RAG_RETRIEVER <--> KB_DOCS["📖 Enterprise CVEs, CIS Benchmarks & Runbooks"]
     end
 
     %% ===================================================
     %% 7. LLMOPS GUARDRAILS & INFERENCE
     %% ===================================================
-    subgraph AI_LLMOPS_BOX["🛡️ 7. LLMOPS GUARDRAILS & INFERENCE"]
-        style AI_LLMOPS_BOX fill:#261502,stroke:#f59e0b,stroke-width:2px,color:#f59e0b
-        AGENT_SUPERVISOR --> GUARD["🛡️ Security Guardrails<br/>(Prompt Injection Defense)"]
-        GUARD --> LLM_ENGINE["🧠 Private LLM Inference<br/>(vLLM / Ollama / OpenAI)"]
-        LLM_ENGINE --> TELEMETRY["📊 Token Latency & Telemetry"]
+    subgraph AI_LLMOPS_BOX["🛡️ 7. LLMOPS GUARDRAILS & PRIVATE INFERENCE"]
+        style AI_LLMOPS_BOX fill:none,stroke:#f59e0b,stroke-width:2px,stroke-dasharray:4 4,color:#f59e0b
+        AGENT_SUPERVISOR --> GUARD["🛡️ NeMo Security Guardrails<br/>(Prompt Injection & PII Scrubbing)"]
+        GUARD --> LLM_ENGINE["🧠 Private LLM Inference<br/>(vLLM / Ollama Private Endpoints)"]
+        LLM_ENGINE --> TELEMETRY["📊 Token Latency & Prometheus Metrics"]
     end
 
     %% ===================================================
     %% 8. CLOSED-LOOP CONTINUOUS FEEDBACK
     %% ===================================================
-    subgraph FEEDBACK_BOX["⚡ 8. CLOSED-LOOP AUTO-RECONCILIATION"]
-        style FEEDBACK_BOX fill:#0a2034,stroke:#06b6d4,stroke-width:2px,color:#06b6d4
-        AGENT_HEAL --> AUTO_PR["🚀 Auto-Generated Verified PR<br/>(Security Patch & IaC Fix)"]
+    subgraph FEEDBACK_BOX["⚡ 8. CLOSED-LOOP AUTO-RECONCILIATION GATE"]
+        style FEEDBACK_BOX fill:none,stroke:#06b6d4,stroke-width:2px,stroke-dasharray:4 4,color:#06b6d4
+        AGENT_HEAL --> AUTO_PR["🚀 Auto-Generated Verified PR<br/>(Remediation Code & IaC Drift Patch)"]
         AUTO_PR -.->|Continuous Reconciliation Loop| GITHUB
     end
 
     %% ===================================================
-    %% NODE STYLES & CLASSES
+    %% NODE STYLES & CLASSES (Pure Transparent Backgrounds)
     %% ===================================================
-    classDef devNode fill:#1e293b,stroke:#38bdf8,stroke-width:1.5px,color:#f8fafc;
-    classDef secNode fill:#2d0f19,stroke:#f43f5e,stroke-width:1.5px,color:#fecdd3;
-    classDef cloudNode fill:#0c2a4a,stroke:#38bdf8,stroke-width:1.5px,color:#e0f2fe;
-    classDef aiNode fill:#2d1254,stroke:#c084fc,stroke-width:1.5px,color:#fae8ff;
-    classDef mcpNode fill:#3b145a,stroke:#e879f9,stroke-width:1.5px,color:#fdf4ff;
-    classDef ragNode fill:#0a3829,stroke:#34d399,stroke-width:1.5px,color:#ecfdf5;
-    classDef llmNode fill:#3d1e04,stroke:#fbbf24,stroke-width:1.5px,color:#fef3c7;
-    classDef loopNode fill:#0e3846,stroke:#22d3ee,stroke-width:1.5px,color:#cffafe;
+    classDef devNode fill:none,stroke:#38bdf8,stroke-width:1.5px,color:#38bdf8;
+    classDef secNode fill:none,stroke:#f43f5e,stroke-width:1.5px,color:#f43f5e;
+    classDef cloudNode fill:none,stroke:#0ea5e9,stroke-width:1.5px,color:#0ea5e9;
+    classDef aiNode fill:none,stroke:#a855f7,stroke-width:1.5px,color:#a855f7;
+    classDef mcpNode fill:none,stroke:#c084fc,stroke-width:1.5px,color:#c084fc;
+    classDef ragNode fill:none,stroke:#10b981,stroke-width:1.5px,color:#10b981;
+    classDef llmNode fill:none,stroke:#f59e0b,stroke-width:1.5px,color:#f59e0b;
+    classDef loopNode fill:none,stroke:#06b6d4,stroke-width:2px,color:#06b6d4;
 
     class CODE,GITHUB devNode;
     class SCAN_SECRETS,LINT_IAC,SCAN_VULN,FINOPS secNode;
-    class TF_ENGINE,LZ,NET,VAULT,AKS cloudNode;
+    class TF_ENGINE,LZ,VAULT,AKS cloudNode;
     class AGENT_SUPERVISOR,AGENT_SEC,AGENT_DRIFT,AGENT_HEAL aiNode;
     class MCP_CORE,MCP_TOOL_AZ,MCP_TOOL_IAC,MCP_TOOL_K8S mcpNode;
     class RAG_RETRIEVER,VECTOR_DB,KB_DOCS ragNode;
@@ -199,7 +179,68 @@ flowchart TB
     class AUTO_PR loopNode;
 ```
 
-</details>
+### 📋 Architectural Layer Specification (HTML / Code Matrix)
+
+<table width="100%">
+  <thead>
+    <tr>
+      <th align="center" width="12%">Layer</th>
+      <th align="left" width="22%">Subsystem</th>
+      <th align="left" width="30%">Core Tech &amp; Tooling</th>
+      <th align="left" width="36%">Enterprise Architecture Role</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center"><b>01</b></td>
+      <td><b>👨‍💻 GitOps Ingestion</b></td>
+      <td><code>Git</code> • <code>GitHub Enterprise</code> • <code>Actions</code></td>
+      <td>Centralized source control, semantic PR verification, and strict branch protection gates.</td>
+    </tr>
+    <tr>
+      <td align="center"><b>02</b></td>
+      <td><b>🛡️ DevSecOps Gates</b></td>
+      <td><code>GitLeaks</code> • <code>tfsec</code> • <code>TFLint</code> • <code>Infracost</code></td>
+      <td>Shift-left secret interception, IaC linting, vulnerability screening, and PR cloud budget gates.</td>
+    </tr>
+    <tr>
+      <td align="center"><b>03</b></td>
+      <td><b>☁️ Cloud Platform</b></td>
+      <td><code>Terraform</code> • <code>Azure Landing Zone</code> • <code>AKS</code></td>
+      <td>Zero-trust Hub-and-Spoke networking, Key Vault RBAC, and private isolated Kubernetes runtime.</td>
+    </tr>
+    <tr>
+      <td align="center"><b>04</b></td>
+      <td><b>🤖 AI Agent Swarm</b></td>
+      <td><code>LangGraph</code> • <code>CrewAI</code> • <code>Python</code></td>
+      <td>Multi-agent supervisor coordinating security audits, drift analysis, and automated remediation.</td>
+    </tr>
+    <tr>
+      <td align="center"><b>05</b></td>
+      <td><b>🔌 MCP Protocol</b></td>
+      <td><code>Model Context Protocol (MCP)</code> • <code>JSON-RPC</code></td>
+      <td>Deterministic tool invocation across Azure Resource Graph, Terraform state, and AKS diagnostics.</td>
+    </tr>
+    <tr>
+      <td align="center"><b>06</b></td>
+      <td><b>📚 Enterprise RAG</b></td>
+      <td><code>Qdrant</code> • <code>Azure AI Search</code> • <code>LangChain</code></td>
+      <td>Sub-50ms hybrid dense &amp; sparse vector retrieval over CVE databases, CIS benchmarks, and SOPs.</td>
+    </tr>
+    <tr>
+      <td align="center"><b>07</b></td>
+      <td><b>🛡️ LLMOps Guardrails</b></td>
+      <td><code>NeMo Guardrails</code> • <code>vLLM</code> • <code>Prometheus</code></td>
+      <td>Prompt injection prevention, PII scrubbing, private inference serving, and token telemetry.</td>
+    </tr>
+    <tr>
+      <td align="center"><b>08</b></td>
+      <td><b>⚡ Auto-Reconciliation</b></td>
+      <td><code>Auto-PR Engine</code> • <code>GitHub REST API</code></td>
+      <td>Closed-loop autonomous remediation: fixes verified and opened as PRs back into the monorepo.</td>
+    </tr>
+  </tbody>
+</table>
 
 ---
 
