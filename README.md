@@ -73,77 +73,107 @@ In modern engineering, DevSecOps and AI are converging. I bridge the gap between
 
 ```mermaid
 flowchart LR
-    subgraph GITOPS["🐙 1. GitOps Ingestion"]
-        DEV["💻 Code Commit & PR"] --> GATE["🛡️ Branch Protection"]
+    %% ===================================================
+    %% LEFT TRACK: CLOUD PLATFORM & DEVSECOPS
+    %% ===================================================
+    subgraph TRACK_INFRA["☁️ TRACK 1: CLOUD PLATFORM & DEVSECOPS"]
+        direction TB
+        style TRACK_INFRA fill:none,stroke:#0ea5e9,stroke-width:2px,color:#0ea5e9
+        
+        DEV["💻 1. GitOps Ingestion<br/>(VS Code • PR Branch Gate)"]
+        SEC["🛡️ 2. Shift-Left DevSecOps<br/>(GitLeaks • tfsec • Infracost)"]
+        CLOUD["☁️ 3. Azure Cloud Fabric<br/>(Modular Terraform • Key Vault • AKS)"]
+        
+        DEV --> SEC --> CLOUD
     end
 
-    subgraph SEC["🔐 2. DevSecOps Gates"]
-        GATE --> SCAN["🔑 GitLeaks & tfsec<br/>(Secret & SAST Scan)"]
-        SCAN --> FINOPS["💰 Infracost<br/>(PR Budget Gate)"]
+    %% ===================================================
+    %% RIGHT TRACK: AGENTIC AI & LLMOPS ENGINE
+    %% ===================================================
+    subgraph TRACK_AI["🤖 TRACK 2: AGENTIC AI & LLMOPS ENGINE"]
+        direction TB
+        style TRACK_AI fill:none,stroke:#a855f7,stroke-width:2px,color:#a855f7
+        
+        AGENT["🧠 4. LangGraph Supervisor<br/>(Multi-Agent Task Routing)"]
+        MCP["🔌 5. Model Context Protocol<br/>(FastMCP Server • Azure & IaC Tools)"]
+        RAG["📚 6. Enterprise Vector RAG<br/>(Qdrant • CIS Benchmarks & CVEs)"]
+        GUARD["🛡️ 7. LLMOps Guardrails<br/>(NeMo Defense • Token Telemetry)"]
+        
+        AGENT --> MCP --> RAG --> GUARD
     end
 
-    subgraph CLOUD["☁️ 3. Azure Cloud Fabric"]
-        FINOPS --> TF["⚡ Modular Terraform<br/>(CAF Landing Zones)"]
-        TF --> AKS["☸️ Private AKS Cluster<br/>(Isolated Workloads)"]
-    end
+    %% ===================================================
+    %% PARALLEL INTERCONNECTIONS
+    %% ===================================================
+    CLOUD ==>|☸️ AKS Workload / MCP Access| AGENT
+    GUARD -.->|⚡ 8. Auto-Healing Remediation PR| DEV
 
-    subgraph AI["🤖 4. Autonomous AI Engine"]
-        AKS --> MCP["🔌 MCP Server Host<br/>(Azure & IaC Tools)"]
-        MCP --> AGENT["🧠 LangGraph Supervisor<br/>(Multi-Agent Swarm)"]
-        AGENT --> RAG["📚 Qdrant Vector RAG<br/>(CIS Benchmarks & SOPs)"]
-    end
+    %% ===================================================
+    %% COLORS MATCHING ARCHITECTURE PALETTE
+    %% ===================================================
+    classDef devNode fill:none,stroke:#38bdf8,stroke-width:2px,color:#38bdf8;
+    classDef secNode fill:none,stroke:#f43f5e,stroke-width:2px,color:#f43f5e;
+    classDef cloudNode fill:none,stroke:#0ea5e9,stroke-width:2px,color:#0ea5e9;
+    classDef agentNode fill:none,stroke:#a855f7,stroke-width:2px,color:#a855f7;
+    classDef mcpNode fill:none,stroke:#c084fc,stroke-width:2px,color:#c084fc;
+    classDef ragNode fill:none,stroke:#10b981,stroke-width:2px,color:#10b981;
+    classDef guardNode fill:none,stroke:#f59e0b,stroke-width:2px,color:#f59e0b;
 
-    subgraph HEAL["⚡ 5. Closed-Loop Healing"]
-        RAG --> AUTO_PR["🚀 Auto-Healing PR<br/>(Verified Code Patch)"]
-        AUTO_PR -.->|Continuous Reconciliation| DEV
-    end
-
-    classDef stage fill:none,stroke:#38bdf8,stroke-width:1.5px,color:#38bdf8;
-    classDef sec fill:none,stroke:#f43f5e,stroke-width:1.5px,color:#f43f5e;
-    classDef cld fill:none,stroke:#0ea5e9,stroke-width:1.5px,color:#0ea5e9;
-    classDef ai fill:none,stroke:#a855f7,stroke-width:1.5px,color:#a855f7;
-    classDef loop fill:none,stroke:#06b6d4,stroke-width:2px,color:#06b6d4;
-
-    class DEV,GATE stage;
-    class SCAN,FINOPS sec;
-    class TF,AKS cld;
-    class MCP,AGENT,RAG ai;
-    class AUTO_PR loop;
+    class DEV devNode;
+    class SEC secNode;
+    class CLOUD cloudNode;
+    class AGENT agentNode;
+    class MCP mcpNode;
+    class RAG ragNode;
+    class GUARD guardNode;
 ```
 
 ---
 
-### ⚡ Architectural Deep-Dive: The 4 Core Pillars
+### ⚡ Parallel Architecture Breakdown: Dual-Engine Specifications
 
-> [!TIP]
-> ### 🛡️ Pillar 1: Shift-Left DevSecOps & Automated Governance
-> **Zero-trust security baked directly into the developer workflow before any infrastructure state merge.**
-> - **Continuous SAST & Secret Interception:** Automated `GitLeaks` and `tfsec` execution halts commits with exposed secrets or security violations.
-> - **Policy as Code:** `TFLint` and `Checkov` validate Terraform modules against CIS Azure Foundation Benchmarks.
-> - **FinOps Guardrails:** `Infracost` provides real-time pull request cost diffs, eliminating surprise cloud bills before deployment.
-> - **Key Result:** **Zero leaked credentials**, **99.9% automated PR pass-through rate**, **100% policy compliance**.
+<table width="100%">
+  <tr>
+    <td width="50%" valign="top">
+      <h3 style="color:#0ea5e9;">☁️ Track 1: Cloud Platform &amp; DevSecOps</h3>
+      
+      <h4>🛡️ 1. Shift-Left DevSecOps Gateways</h4>
+      <ul>
+        <li><b>SAST &amp; Secret Audit:</b> Pre-merge <code>GitLeaks</code> and <code>tfsec</code> execution stops leaked secrets and misconfigurations.</li>
+        <li><b>Policy as Code:</b> <code>TFLint</code> and <code>Checkov</code> ensuring 100% adherence to CIS Azure Benchmarks.</li>
+        <li><b>FinOps Guardrail:</b> <code>Infracost</code> estimates real-time cloud budget impact on every pull request.</li>
+        <li><b>Outcome:</b> <b>Zero leaked credentials</b>, <b>99.9% automated PR pass-through rate</b>.</li>
+      </ul>
 
-> [!NOTE]
-> ### ☁️ Pillar 2: Enterprise Cloud Architecture & Modular IaC
-> **Resilient multi-region platforms engineered on Microsoft Azure following the Cloud Adoption Framework (CAF).**
-> - **Enterprise Landing Zones:** Scalable Hub-and-Spoke networking, VNet Peering, Azure Firewall, and Network Security Groups.
-> - **Reusable Terraform Modules:** Dynamic data sources, remote state with distributed locking, and parameterized blueprints.
-> - **Zero-Trust Identity:** Centralized secret management in `Azure Key Vault`, Managed Identities, and granular RBAC schemas.
-> - **Container Platform:** Private, hardened `Azure Kubernetes Service (AKS)` with network isolation and Workload Identity.
+      <h4>🏛️ 2. Enterprise Cloud Architecture &amp; IaC</h4>
+      <ul>
+        <li><b>Azure Landing Zones (CAF):</b> Hub-and-Spoke VNets, Azure Firewall, and Network Security Groups.</li>
+        <li><b>Modular Terraform:</b> Parameterized, reusable modules with dynamic state data sources.</li>
+        <li><b>Zero-Trust Security:</b> Centralized <code>Azure Key Vault</code> HSM, Managed Identities, and private AKS.</li>
+        <li><b>Compute Platform:</b> Hardened, isolated <code>Azure Kubernetes Service (AKS)</code> runtime.</li>
+      </ul>
+    </td>
+    <td width="50%" valign="top">
+      <h3 style="color:#a855f7;">🤖 Track 2: Agentic AI &amp; LLMOps Engine</h3>
+      
+      <h4>🔌 3. Model Context Protocol (MCP) Fabric</h4>
+      <ul>
+        <li><b>Standardized Protocol:</b> FastMCP servers operating over JSON-RPC (stdio &amp; SSE).</li>
+        <li><b>Deterministic Tools:</b> Safe read-only tools querying Azure Resource Graph, Terraform state, and AKS health.</li>
+        <li><b>Zero Hallucinations:</b> Strictly typed schema contracts ensuring reliable autonomous execution.</li>
+        <li><b>Interoperability:</b> Seamless orchestration with Claude 3.5 Sonnet &amp; GPT-4o.</li>
+      </ul>
 
-> [!IMPORTANT]
-> ### 🔌 Pillar 3: Model Context Protocol (MCP) Fabric
-> **Standardized JSON-RPC protocol bridging cloud infrastructure tools directly with Agentic LLM reasoning.**
-> - **Custom FastMCP Server:** Hosts deterministic, sandboxed tools querying Azure Resource Graph, K8s diagnostics, and IaC linters.
-> - **Zero Hallucination:** Strongly typed schema contracts enforce safe, read-only interactions before any mutation.
-> - **Cross-Platform Interoperability:** Compatible across Claude 3.5 Sonnet, GPT-4o, and autonomous agent orchestrators.
-
-> [!CAUTION]
-> ### 🧠 Pillar 4: Enterprise RAG & Autonomous Self-Healing
-> **High-throughput vector search combined with closed-loop autonomous infrastructure remediation.**
-> - **Sub-50ms Vector Engine:** `Qdrant` and `Azure AI Search` indexing CIS benchmarks, company architecture SOPs, and CVE advisories.
-> - **LLMOps Guardrails:** `NeMo Guardrails` blocking prompt injections, scrubbing sensitive PII, and monitoring token latency.
-> - **Closed-Loop Reconciliation:** AI agents detect infrastructure drift and automatically generate verified pull requests with fix patches.
+      <h4>🧠 4. Enterprise RAG &amp; Auto-Healing</h4>
+      <ul>
+        <li><b>Sub-50ms Vector Search:</b> <code>Qdrant</code> &amp; <code>Azure AI Search</code> indexing compliance SOPs and CVEs.</li>
+        <li><b>LLMOps Guardrails:</b> <code>NeMo Guardrails</code> blocking prompt injections and scrubbing sensitive PII.</li>
+        <li><b>Closed-Loop Healing:</b> Autonomous PR generation directly resolving detected infrastructure drift.</li>
+        <li><b>Telemetry:</b> Full tracing of token latency, hallucination metrics, and vector index health.</li>
+      </ul>
+    </td>
+  </tr>
+</table>
 
 <br/>
 
