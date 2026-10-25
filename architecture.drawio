@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" modified="2026-10-25T21:15:00.000Z" agent="Antigravity/2.0" version="24.0.0" type="device">
   <diagram name="DevSecOps-AI-Architecture" id="narendra-architecture">
-    <mxGraphModel dx="1600" dy="1000" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="950" background="#0d1117" math="0" shadow="1">
+    <mxGraphModel dx="1600" dy="1000" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="950" background="none" math="0" shadow="1">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
