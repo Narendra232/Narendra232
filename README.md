@@ -252,7 +252,7 @@ if __name__ == "__main__":
 ## 💼 Professional Experience & Track Record
 
 ### 🚀 **Lead Cloud & DevOps Engineer** — *Kaar Technologies*
-**Sep 2024 – Present | Chennai / Remote, India**
+**Sep 2024 – Aug 2026 | Riyadh / Saudi Arabia ,**
 - Architecting enterprise-scale multi-region Azure cloud environments using modular **Terraform (IaC)** adhering to Microsoft Cloud Adoption Framework (CAF).
 - Pioneering modern **DevSecOps automation**: shifting security left with integrated SAST, secret auditing, and automated container vulnerability mitigation in **GitHub Actions**.
 - Introducing AI-augmented workflow automation, utilizing **MCP and RAG** models to accelerate cloud configuration audits and incident resolution playbooks.
